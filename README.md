@@ -76,7 +76,7 @@ very well on screen. It will be paired with the ***Cormorant Garmont*** font as 
 ### Icons
 
 * Fontawesome icons will be used for better user experience.
-* The [logo]() and [favicon]() are the same image for comfort and consistency and use 
+* The [logo](assets/images/logo.png) and [favicon](assets/images/favicon.ico) are the same image for comfort and consistency and use 
 the same color scheme as the website.
 
 ### Colors
@@ -88,7 +88,7 @@ The colors use are as follow : #84A9D9 / #C4DDF2 / #717334 / #736640 / #BF9075.
 ### Images
 
 The hero image is important for the UX and is large, open and trigger the will to explore the website.  
-A gallery page is part of the website. They will be pictures of scenery, path and walks in general.
+A gallery page is part of the website. There will be pictures of scenery, paths and walks in general.
 
 ### Styling and Feeling
 
@@ -99,4 +99,4 @@ a lot of space.
 
 ### Audio and Video
 
-No audio or video will be use on the website.
+A few short video will be included in the gallery.
