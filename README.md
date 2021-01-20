@@ -1,45 +1,102 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Walking Around**
 
-Welcome USER_NAME,
+Walking Around is a Club situated in Bray (County Wicklow, Ireland) that 
+consist to a group of people of all ages and background that enjoy hiking.  
+The Club meet regularly to acomplish different types of walks from 
+easy to advanced difficulties.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Project Goals
 
-## Gitpod Reminders
+This website will **advertise** and **promote** the Club and its activities in 
+order to **attract** the audience into **joining** the Club.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Developer and Business Goals
 
-`python3 -m http.server`
+* Build a static website using HTML and CSS.
+* Advertise and Promote the Club by :
+  * Providing acurate and useful informations.
+  * Providing an excellent User Experience (UX).
+* Grow of the Club member's population by :
+  * Attracting people to join the Club.
+  * Using a User Centric Developement approach (UCD).
 
-A blue button should appear to click: *Make Public*,
+## User Goals
 
-Another blue button should appear to click: *Open Browser*.
+* Learn about the Club :
+  * activities.
+  * Spirit and Goals.
+* Learn about hiking.
+* See pictures of the walks.
+* Submit an application to join the Club.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# UX
 
-A blue button should appear to click: *Make Public*,
+## **Audience Definition**
 
-Another blue button should appear to click: *Open Browser*.
+The targeted audience has no age limits and is interested in hiking. This audience 
+would have as well an interest in outdoor activities, sport, healthy living and adventures.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### The targeted audience for this website is looking for :
 
-## Updates Since The Instructional Video
+* Outdoor activities.
+* Beeing part of a group, a community.
+* Discovering Ireland.
+* Hiking tips.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### This website is the best way to answer their needs because :
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* It provides a form for people to apply for joining the club.
+* It provides useful tips for hikers.
+* It gives inspiration and motivation for outside activities through content and pictures.
+* It provides a meeting Schedule.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## **User Stories**
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+1. As a first time user, I want the website to be appealing.
+2. As a first time user, I want the navigation to be easy and intuitive.
+3. As a first time user, I want the content to be informative but not overwhelming.
+4. As a first time user, I want to understand immediatly what is the website about 
+without the need of looking for it.
+5. As a first time user, I want to be able to apply for joining the Club.
+6. As a returning user, I want to see when and where are the Club's meetings.
+7. As a returning user, I want to check out the different social media link for 
+inspiration and ideas.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## **Design Choices**
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Fonts
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Considering the targeted audience, a sans serif font is best because it is often 
+associated to simplicity, modern and clean design. It is as well a flexible font that 
+can be pair with the serif style for more formal intention and traditional feel.  
+The website will use ***Proza Libre*** font because it has been designed to work 
+very well on screen. It will be paired with the ***Cormorant Garmont*** font as :
+>both designs have a strong calligraphic feel that ties them together.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Icons
 
---------
+* Fontawesome icons will be used for better user experience.
+* The [logo]() and [favicon]() are the same image for comfort and consistency and use 
+the same color scheme as the website.
 
-Happy coding!
+### Colors
+
+The color scheme of the website has been extracted from a picture using [Adobe Color](https://color.adobe.com/create/image) 
+and swatches are said to be color blind safe by the same website using the [accessibility tool](https://color.adobe.com/create/color-accessibility).  
+The colors use are as follow : #84A9D9 / #C4DDF2 / #717334 / #736640 / #BF9075.
+
+### Images
+
+The hero image is important for the UX and is large, open and trigger the will to explore the website.  
+A gallery page is part of the website. They will be pictures of scenery, path and walks in general.
+
+### Styling and Feeling
+
+The home page is design to give the feeling of grandiose and adventure.  
+The general feel of the website is the love of the outdoor and as well the love 
+of sharing moments. This is brought by a simple and clean user interface with 
+a lot of space.
+
+### Audio and Video
+
+No audio or video will be use on the website.
