@@ -81,7 +81,7 @@ the same color scheme as the website.
 
 ### Colors
 
-The color scheme of the website has been extracted from a picture using [Adobe Color](https://color.adobe.com/create/image) 
+The [color scheme](assets/images/colors.png) of the website has been extracted from a picture using [Adobe Color](https://color.adobe.com/create/image) 
 and swatches are said to be color blind safe by the same website using the [accessibility tool](https://color.adobe.com/create/color-accessibility).  
 The colors use are as follow : #84A9D9 / #C4DDF2 / #717334 / #736640 / #BF9075.
 
