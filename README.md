@@ -111,6 +111,8 @@ A few short video will be included in the gallery.
 
 # Features
 
+### **Existing Features**
+
 #### Repeated Features
 
 On all pages and devices there is a fix header on the top 
@@ -132,8 +134,6 @@ icon is clicked on.
 
 All pages feature an hero image, taking all the viewport, bringing 
 the sensation of open space and immersion into Nature.
-
-### **Existing Features**
 
 #### Home
 
@@ -167,7 +167,11 @@ on the device in order to keep a good user experience.
 
 #### Hiking Tips
 
-
+On this page are presented three major hiking tips. They are available 
+to download on pdf format. Those tips are presented in three columns 
+next to each other on large and medium devices and below each other 
+on small devices.
+A Titile and encouragement is display on large screen only.
 
 #### Get in touch !
 
