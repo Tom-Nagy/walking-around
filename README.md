@@ -109,5 +109,72 @@ A few short video will be included in the gallery.
 * [Tablet](wireframes/tablet.pdf)
 * [Mobile](wireframes/mobile.pdf)
 
+# Features
 
+#### Repeated Features
+
+On all pages and devices there is a fix header on the top 
+and a fix footer on the bottom. They are both display with a clear
+opacity or transparent in order to see the hero image through.
+
+**The header** present the logo and the name of the Website on the 
+left and a responsive navigation bar on the right. The navigation 
+bar become a toggle on small devices. 
+
+**The footer** present a hightlighted link (Get in touch !) on the 
+left accompained by a sign in icon that bring the user to the 
+application form.  
+As well social media logos on the right linked to different websites for 
+additional informations on hiking.
+The copyright (made of an icon and some text) is in the middle and 
+the text will disappear on small devices and will be display when the 
+icon is clicked on. 
+
+All pages feature an hero image, taking all the viewport, bringing 
+the sensation of open space and immersion into Nature.
+
+### **Existing Features**
+
+#### Home
+
+On the home page there is a big heading, praising the Club, across 
+the viewport and below a call to action button (join). This is to trigger 
+users desire to be part of the Club.  
+On small devices an extra navigation menu is placed below the callout 
+button to provide users extra encouragement to explore the website by 
+identifying what is to see.
+
+#### The Club
+
+This section is on two pages. The first page gives general 
+informations about the Club, distributed in three columns. From left 
+to right: its goals, its location and motivational quotes. It Features 
+a zoom in effect from [Google Earth](https://www.google.com/intl/fr/earth/) 
+to locate Ireland on the middle and the background of the all viewport. 
+That is used to give a wow factor.  
+On medium devices the location is not display.
+On small devices, only the Club goals and description will remain.  
+Arrows pointing down and linked to the following content will invite 
+users to scroll down or click and continue exploring the website.
+
+#### Gallery
+
+The gallery present pictures and video taken during hikes. It features 
+the great Irish landscape and trails.  
+It is presented as a carousel with different picture sizes depending 
+on the device. The number of pictures on the page changes depending 
+on the device in order to keep a good user experience.  
+
+#### Hiking Tips
+
+
+
+#### Get in touch !
+
+This page features a form to fill up in order to apply for joining 
+the Club. It is presented on the middle of the screen with a title that 
+reinforce the emotional response into the action taken.
+On large screen there is a motivational quote.
+
+### **Features to Implement in the Future Versions**
 
