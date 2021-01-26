@@ -157,6 +157,10 @@ On small devices, only the Club goals and description will remain.
 Arrows pointing down and linked to the following content will invite 
 users to scroll down or click and continue exploring the website.
 
+#### Activities 
+
+
+
 #### Gallery
 
 The gallery present pictures and video taken during hikes. It features 
@@ -182,3 +186,48 @@ On large screen there is a motivational quote.
 
 ### **Features to Implement in the Future Versions**
 
+#### Home 
+
+#### The Club
+
+#### Activities
+
+#### Gallery
+
+#### Hiking Tips
+
+#### Get in touch !
+
+
+
+
+
+
+# Technologies Used 
+
+
+
+# Testing
+
+
+
+# Deployment 
+
+
+
+
+# Bugs
+When the navigation menu is toggled and clicked on, the list of links of the menu doesn't appear.
+Whe can see the sr-only that goes with the active class of the current page we are on.
+### Solved
+
+
+### Unsolved
+
+
+
+
+# Credit 
+
+Bootstrap
+Google Fonts
