@@ -11,7 +11,6 @@ body {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* ---------- Logo */
@@ -24,10 +23,110 @@ body {
 
 .logo {
     font-family: "Cormorant Garamont", sans-serif;
+    font-weight: 700;
 }
 
 /* ---------- Navigation Menu */
 
 .navbar-light .navbar-nav .nav-link {
-    color: #bf9075;
+    font-weight: 500;
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #c7530f;
+}
+
+.navbar-light .navbar-nav .active a {
+    color: #c7530f;
+    
+}
+
+/* ------------------------------------------------------ Footer */
+
+footer {
+    padding: 12px 12px 12px 12px;
+}
+
+footer div {
+    display: inline-block;
+}
+
+.footer-section {
+    width: 32%;
+    font-size: 0.7rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ---------- Button */
+
+.btn {
+    padding: 0;
+}
+
+.btn-outline-warning {
+    border-color: #c7530f;
+}
+
+.btn-outline-warning:active {
+    background-color: #c7530f;
+    border-color: black;
+}
+
+.btn-outline-warning:hover {
+    color: #fafafa;
+    background-color: #c7530f;
+    border-color: black;
+}
+
+.getintouch a {
+    padding: 6px 15px 5px 15px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.getintouch a:active {
+    color: #fafafa;
+}
+
+.getintouch a:hover {
+    color: #fafafa;
+}
+
+/*Responsive Button to fit on one line on very small screens.  */
+
+@media (max-width: 380px) {
+    .footer-section button {
+        max-width: 95px;
+    }
+    .getintouch a {
+        padding-left: 2px;
+        padding-right: 2px;        
+    }
+}
+
+/* ---------- Copyright */
+
+@media (max-width: 540px) {
+    #copyright span {
+        display: none;
+    }
+}
+
+/* ---------- social Media */
+
+.social-links {
+    margin: 0;
+}
+
+.social-links i {
+    color: black;
+    font-size: 16px;
+}
+
+.social-links i:hover {
+    color: #c7530f;
 }
