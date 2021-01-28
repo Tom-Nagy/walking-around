@@ -26,6 +26,8 @@ body {
     font-weight: 700;
 }
 
+/* add a media query to style logo/title-section on small screen ?????? */
+
 /* ---------- Navigation Menu */
 
 .navbar-light .navbar-nav .nav-link {
@@ -111,8 +113,9 @@ footer div {
 /* ---------- Copyright */
 
 @media (max-width: 540px) {
-    #copyright span {
-        display: none;
+    #copyright {
+        font-size: 0.5rem;
+        font-weight: bold;
     }
 }
 
