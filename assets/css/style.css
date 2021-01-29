@@ -34,6 +34,17 @@ body {
     }
 }
 
+@media (max-width: 375px) {
+    .logo img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .logo span {
+        font-size: 16px;
+    }
+}
+
 /* ---------- Navigation Menu */
 
 .navbar-light .navbar-nav .nav-link {
@@ -137,6 +148,12 @@ footer div {
         font-size: 0.5rem;
         font-weight: bold;
     }
+}
+
+@media (max-width: 280px) {
+    .footer-containers .social-links, #copyright, .getintouch a {
+        font-size: 0.7em;
+    }   
 }
 
 /* ---------- social Media */
