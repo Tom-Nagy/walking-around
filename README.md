@@ -86,6 +86,7 @@ the same color scheme as the website.
 The [color scheme](assets/images/colors.png) of the website has been extracted from a picture using [Adobe Color](https://color.adobe.com/create/image) 
 and swatches are said to be color blind safe by the same website using the [accessibility tool](https://color.adobe.com/create/color-accessibility).  
 The colors use are as follow : #84A9D9 / #C4DDF2 / #717334 / #736640 / #BF9075.
+An Orange shade (#C7530F) is used for links. It is distinctive and with a good contrast.
 
 #### Images
 
@@ -123,26 +124,22 @@ opacity or transparent in order to see the hero image through.
 left and a responsive navigation bar on the right. The navigation 
 bar become a toggle on small devices. 
 
-**The footer** present a hightlighted link (Get in touch !) on the 
-left accompained by a sign in icon that bring the user to the 
-application form.  
-As well social media logos on the right linked to different websites for 
+**The footer** present a button with the link "Get in touch !" on the 
+left that bring the user to the application form.  
+As well, social media logos on the right linked to different websites for 
 additional informations on hiking.
-The copyright (made of an icon and some text) is in the middle and 
-the text will disappear on small devices and will be display when the 
-icon is clicked on. 
+The "copyright" (For eductionial use) is in the middle with responsive text to fit on small devices. 
 
 All pages feature an hero image, taking all the viewport, bringing 
 the sensation of open space and immersion into Nature.
 
 #### Home
 
-On the home page there is a big heading, praising the Club, across 
-the viewport and below a call to action button (join). This is to trigger 
-users desire to be part of the Club.  
-On small devices an extra navigation menu is placed below the callout 
-button to provide users extra encouragement to explore the website by 
-identifying what is to see.
+On the home page there is a <h1>Ireland Best Walking Community</h1>, praising the Club, across 
+the viewport.  
+Below there is a call to action <button>Join Us</button>. This is to trigger 
+users desire to be part of the Club. This button will lead the users to fill up the "Get in touch" form.
+
 
 #### The Club
 
@@ -217,8 +214,20 @@ On large screen there is a motivational quote.
 
 
 # Bugs
-When the navigation menu is toggled and clicked on, the list of links of the menu doesn't appear.
-Whe can see the sr-only that goes with the active class of the current page we are on.
+Issue : We Cannot see the toggle icon.
+Solve : The navigation bar require Bootstrap color scheme.
+
+Issue : Position the navigation menu to the right.
+Solve : The parent of the <ul> should have the class="justify-content-end".
+
+Issue : When the navigation menu is toggled and clicked on, the list of links of the menu doesn't appear.
+Solve : JQuery script was missing before the </body>. I was using a Beta version of Bootstrap that didn't include it.
+
+Issue : Whe can see the "Curent page." message provided in the span with class="sr-only" that goes with the active link.
+Solve : The "sr-only" class goes with aria-hidden attribute.
+
+Issue : The callout button of the hone page is not aligned with the the copyright text.
+Solve :
 ### Solved
 
 
@@ -231,3 +240,13 @@ Whe can see the sr-only that goes with the active class of the current page we a
 
 Bootstrap
 Google Fonts
+Fontawesome
+W3schools
+[Slack](code-institute-room.slack.com)
+All the members for their help and support and special thanks to Evret Lynx ...
+
+[Hostinger Tutorials](https://www.hostinger.com/tutorials/how-to-add-favicon-to-website)
+provided the <link> and explaination on how to install the favicon for the website.
+
+[George Dimitriadis](https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color)
+For text-shadow tricks used in css to make text more readable.
