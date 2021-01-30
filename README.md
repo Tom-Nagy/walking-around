@@ -135,9 +135,9 @@ the sensation of open space and immersion into Nature.
 
 #### Home
 
-On the home page there is a <h1>Ireland Best Walking Community</h1>, praising the Club, across 
+On the home page there is a heading (Ireland Best Walking Community), praising the Club, across 
 the viewport.  
-Below there is a call to action <button>Join Us</button>. This is to trigger 
+Below there is a call to action button (Join Us). This is to trigger 
 users desire to be part of the Club. This button will lead the users to fill up the "Get in touch" form.
 
 
@@ -208,9 +208,110 @@ On large screen there is a motivational quote.
 
 
 
-# Deployment 
+# Deployment
+
+This project was developed on [GitPod Workspaces IDE](https://gitpod.io/workspaces/) 
+(Integrated Development Environment) commited and pushed to my [Github Repository](https://github.com/Tom-Nagy/walking-around) 
+using GitPod Command Line Interface (CLI).
+
+## Live Deployment
+
+To make this website accessicle to the public, Walking Around 
+has been deployed on [GitHub Pages]() as follow :
+
+1. Log in to my GitHub account.
+    * To create an account you need to sign up on [GitHub](https://github.com/).
+2. Go to my **Repositories** and select the repository corresponding : [Walking Around](https://github.com/Tom-Nagy/walking-around).
+    * To create a repository see [Create a repo](https://docs.github.com/en/github/getting-started-with-github/create-a-repo).
+3. Navigate to **Settings** :
+
+![setiings](assets/images/repo-settings.png)
+
+4. Scroll down to the **GitHub Pages** section.
+5. Click on the **None** dropdown menu and select the branch to publish : **master**.
+
+![selection of branch to publish](assets/images/branch.png)
+
+6. Click on **Save**.
+7. The website is now deployed.
+
+The link to the website is found in the **GitHub Pages** section of the reporitory settings.
+
+![website link](assets/images/published.png)
 
 
+## Local Deployment
+
+### Cloning
+
+When a reporitory is created on GitHub, it is located on GitHub website ("remotely"). 
+You can create a copy of the repository locally on your machine. This 
+process is called : "**Cloning a repository**".  
+When cloning a repository you are actually copying all the data that the repository 
+contains at that time to your machine.
+
+To clone a repository, take the following steps :
+
+1. Create a GitHub account.
+2. Click on the **Code** dropdown button above the files list.
+3. There are three options available to clone the repository :
+    * using HTTPS
+    * using SSH key
+    * using GitHub CLI  
+
+![clone otions](assets/images/cloning.png)
+
+4. Choose an option and copy the link given.
+5. Change the current working directory to the location where you want the cloned directory.
+5. Open your IDE and in the CLI type : ```git clone``` and paste the link copied on step 4.
+>```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```     
+6. Press **Enter** to create your local clone.
+
+For further informations please go to [Cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line).
+
+
+### Using GitPod
+
+To Clone a repository Using GitPod, take the following steps :
+
+1. Create a GitHub account.
+2. Intall the Gitpod [extention](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki) for Chrome or [Add-on](https://addons.mozilla.org/en-GB/firefox/addon/gitpod/) for Firefox.
+3. Navigate to the corresponding repository.
+4. Click ont the **Gitpod** button on the top right of the files list.
+5. This will open a workspace on GitPod where you can work on the repository locally.
+
+>The very first time that you do this, you need to connect Gitpod and GitHub together.
+You need to log in with GitHub and launch your workspace (As explain above). And then you need to
+authorize Gitpod to be able to access your GitHub account. You agree to Gitpod's
+terms and conditions, and then create a free account. Then, it will open the
+workspace for you.
+Extrait from : "Creating a GitPod Workspace" on [Code Institute Full Stack Software Developement Programme](https://codeinstitute.net/full-stack-software-development-diploma/), 
+by Matt Rudge. 
+
+### Using GitHub Desktop
+
+An other option is available : GitHub Desktop. It consist of cloning a repository from GitHub 
+to GitHub Desktop.  
+For full informations about how to use this option, please visit [GitHub Docs](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop).
+
+### Forking
+
+Forking a repository will copy it in your own repositories in GitHub.
+
+>A fork is a personal copy of another user's repository that lives on your account. 
+Forks allow you to freely make changes to a project without affecting the original upstream 
+repository. You can also open a pull request in the upstream repository and keep your fork 
+synced with the latest changes since both repositories are still connected.
+
+To Fork a repository take the following steps :
+
+1. Create a GitHub account.
+2. Navigate to the corresponding repository.
+3. Identify the ```fork``` button on the top right of the page and click on it.
+
+![forking](assets/images/fork.png)
+
+4. Now you should find a copy of the repository in ```Your repositories```.
 
 
 # Bugs
@@ -250,3 +351,5 @@ provided the <link> and explaination on how to install the favicon for the websi
 
 [George Dimitriadis](https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color)
 For text-shadow tricks used in css to make text more readable.
+
+All the Code Institute team and special thanks to Anna Greaves, Matt Rudge, ...
