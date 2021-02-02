@@ -190,7 +190,7 @@ footer div {
 }
 
 .home-heading {
-    padding-top: 112px;
+    padding-top: 128px;
 }
 
 .home-heading h1 {
@@ -256,7 +256,7 @@ for the following css to make text more readable.*/
 
 .theclub-wrapper .row {
     height: 100vh;
-    padding-top: 112px;
+    padding-top: 128px;
     padding-bottom: 50px;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -288,7 +288,7 @@ for the following css to make text more readable.*/
 
 .activities-wrapper .row {
     height: 100vh;
-    padding-top: 112px;
+    padding-top: 128px;
     padding-bottom: 50px;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -327,3 +327,12 @@ for the following css to make text more readable.*/
     font-size: 2rem;
 }
 
+/* -------------------------------------------------------------------------------- Hiking Tips */
+
+.hikingtips-wrapper {
+    height: 100vh;
+    padding-top: 128px;
+    padding-bottom: 50px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
