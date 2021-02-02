@@ -250,3 +250,15 @@ for the following css to make text more readable.*/
 
 /* -------------------------------------------------------------------------------- The Club */
 
+.theclub-wrapper .row {
+    height: 100vh;
+    padding-top: 128px;
+    padding-bottom: 50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.theclub-wrapper .row div.theclub-quotes {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
