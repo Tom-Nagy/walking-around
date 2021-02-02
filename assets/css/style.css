@@ -190,7 +190,7 @@ footer div {
 }
 
 .home-heading {
-    padding-top: 128px;
+    padding-top: 112px;
 }
 
 .home-heading h1 {
@@ -256,7 +256,7 @@ for the following css to make text more readable.*/
 
 .theclub-wrapper .row {
     height: 100vh;
-    padding-top: 128px;
+    padding-top: 112px;
     padding-bottom: 50px;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -288,10 +288,10 @@ for the following css to make text more readable.*/
 
 .activities-wrapper .row {
     height: 100vh;
-    padding-top: 128px;
+    padding-top: 112px;
     padding-bottom: 50px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .activities-sections {
@@ -302,20 +302,24 @@ for the following css to make text more readable.*/
     border: 1px solid #736640;
     border-radius: 25px;
     background-color: #84a9d980;
-    padding: 33px;
+    padding: 16px 16px 16px 26px;
     height: 33vh;
-    font-size: 16px;
-    overflow-y: auto;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .activities-sections ul {
     border: 1px solid #736640;
     border-radius: 25px;
     background-color: #84a9d980;
-    padding: 33px;
+    padding: 16px 16px 16px 26px;
     height: 33vh;
-    font-size: 16px;
-    overflow-y: auto;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .activities-sections h3 {
