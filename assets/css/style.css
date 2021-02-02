@@ -263,7 +263,7 @@ for the following css to make text more readable.*/
 }
 
 .theclub-def {
-    border: 1px #736640;
+    border: 1px solid #736640;
     border-radius: 25px;
     background-color: #84a9d980;
     padding: 33px;
@@ -283,3 +283,43 @@ for the following css to make text more readable.*/
     font-size: 16px;
     text-align: center;
 }
+
+/* -------------------------------------------------------------------------------- Activities */
+
+.activities-wrapper .row {
+    height: 100vh;
+    padding-top: 128px;
+    padding-bottom: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.activities-sections {
+    padding-bottom: 50px;
+}
+
+.activities-sections p {
+    border: 1px solid #736640;
+    border-radius: 25px;
+    background-color: #84a9d980;
+    padding: 33px;
+    height: 33vh;
+    font-size: 16px;
+    overflow-y: auto;
+}
+
+.activities-sections ul {
+    border: 1px solid #736640;
+    border-radius: 25px;
+    background-color: #84a9d980;
+    padding: 33px;
+    height: 33vh;
+    font-size: 16px;
+    overflow-y: auto;
+}
+
+.activities-sections h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
