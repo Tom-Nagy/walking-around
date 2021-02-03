@@ -324,7 +324,7 @@ Solve : The parent of the <ul> should have the class="justify-content-end".
 Issue : When the navigation menu is toggled and clicked on, the list of links of the menu doesn't appear.
 Solve : JQuery script was missing before the </body>. I was using a Beta version of Bootstrap that didn't include it.
 
-Issue : Whe can see the "Curent page." message provided in the span with class="sr-only" that goes with the active link.
+Issue : Whe can see the "Current page." message provided in the span with class="sr-only" that goes with the active link.
 Solve : The "sr-only" class goes with aria-hidden attribute.
 
 Issue : The callout button of the hone page is not aligned with the the copyright text.
@@ -347,9 +347,27 @@ W3schools
 All the members for their help and support and special thanks to Evret Lynx ...
 
 [Hostinger Tutorials](https://www.hostinger.com/tutorials/how-to-add-favicon-to-website)
-provided the <link> and explaination on how to install the favicon for the website.
+Provided the <link> and explanation on how to install the favicon for the website.
 
 [George Dimitriadis](https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color)
 For text-shadow tricks used in css to make text more readable.
 
+[GeeksforGeeks](https://www.geeksforgeeks.org/how-to-vertically-center-text-with-css/)
+For tips on vertical alignment. 
+
 All the Code Institute team and special thanks to Anna Greaves, Matt Rudge, ...
+
+
+Social Media :
+[Facebook](https://www.facebook.com/groups/hikingirelandgroup)
+[Instagram](https://www.instagram.com/hikingclubireland/)
+[Pinterest](https://www.pinterest.ie/pin/353321533264651536/)
+
+
+Hiking Tips :
+[Backpack tips](https://www.pinterest.ie/pin/839991767980873766/)
+[First Aid Kit tips](https://www.pinterest.ie/pin/32088216085982970/)
+[Clothing tips](https://www.pinterest.ie/pin/116812184068113516/)
+[Layering tips](https://www.youtube.com/watch?v=nxvJap9lyes&feature=emb_title)
+[Find Your Partner](https://www.pinterest.ie/pin/452400725075206099/)
+[Not Alone](https://www.pinterest.ie/pin/47428602314872197/)
