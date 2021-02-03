@@ -11,6 +11,7 @@ body {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-right: 15px;
 }
 
 /* ---------- Logo */
@@ -183,6 +184,7 @@ footer div {
     height: 100vh;
     background: #bf9075 url("../images/gallery/brandon-hike.jpg") top center no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .home-wrapper .row {
@@ -263,10 +265,12 @@ for the following css to make text more readable.*/
 }
 
 .theclub-def {
+    padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
     background-color: #84a9d980;
-    padding: 33px;
+    
+    margin-bottom: 50px;
 }
 
 .theclub-quotes {
@@ -275,13 +279,18 @@ for the following css to make text more readable.*/
 }
 
 .theclub-quotes p {
-    border: 6px outset #736640;
-    background-color: #84a9d980;
-    border-radius: 16px;
     padding: 16px;
+    border: 6px outset #736640;
+    border-radius: 16px;
+    background-color: #84a9d980;
 
-    font-size: 16px;
     text-align: center;
+}
+
+.theclub-def p,
+.theclub-quotes p {
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* -------------------------------------------------------------------------------- Activities */
@@ -298,29 +307,21 @@ for the following css to make text more readable.*/
     padding-bottom: 50px;
 }
 
+.activities-sections div,
 .activities-sections p {
+    padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
     background-color: #84a9d980;
-    padding: 16px 16px 16px 26px;
+    
     height: 33vh;
     display: table-cell;
     vertical-align: middle;
+
     font-size: 18px;
     font-weight: 500;
 }
 
-.activities-sections ul {
-    border: 1px solid #736640;
-    border-radius: 25px;
-    background-color: #84a9d980;
-    padding: 16px 16px 16px 26px;
-    height: 33vh;
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 18px;
-    font-weight: 500;
-}
 
 .activities-sections h3 {
     text-align: center;
@@ -336,3 +337,82 @@ for the following css to make text more readable.*/
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
+
+.hikingtips-wrapper .row {
+    margin: 0;
+}
+
+ .tips-sections {
+    padding-bottom: 50px;
+ }
+
+ 
+ .tips-content {
+    padding: 16px;
+    border: 1px solid #736640;
+    border-radius: 25px;
+    background-color: #84a9d980;
+    
+    display: table-cell;
+    vertical-align: middle;
+ }
+
+ @media (min-width: 1200px) {
+     .tips-content {
+        height: 40vh;
+        overflow-y: auto;
+        display: block;
+     }
+
+     .tips-sections {
+         padding-top: 230px;
+     }
+ }
+
+.tips-titles {
+    padding: 0;
+}
+
+.tips-titles h3 {
+    text-align: center;
+}
+
+ .tips-titles h3 span {
+    font-family: "Cormorant Garamont", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+ }
+
+.tips-titles h3 i {
+    font-size: 1.5rem;
+    padding-left: 20px;
+    color: #717334;
+} 
+
+.tips-titles h3 i:hover {
+    color: #c7530f;
+}
+
+@media (max-width: 520px) {
+    .tips-titles h3 span {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .tips-titles h3 i {
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+}
+
+.tips-content a {
+    padding: 5px;
+    text-decoration: none;
+    color: #c4ddf2;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    margin: 6px;
+    line-height: 33px;
+    text-align: center;
+}
+
+
