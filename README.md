@@ -347,13 +347,17 @@ W3schools
 All the members for their help and support and special thanks to Evret Lynx ...
 
 [Hostinger Tutorials](https://www.hostinger.com/tutorials/how-to-add-favicon-to-website)
-Provided the <link> and explanation on how to install the favicon for the website.
+Provided the link and explanation on how to install the favicon for the website.
 
 [George Dimitriadis](https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color)
 For text-shadow tricks used in css to make text more readable.
 
-[GeeksforGeeks](https://www.geeksforgeeks.org/how-to-vertically-center-text-with-css/)
-For tips on vertical alignment. 
+[GeeksforGeeks](https://www.geeksforgeeks.org/how-to-vertically-center-text-with-css/)  
+For tips on vertical alignment in CSS.
+
+[USERWAY](https://userway.org/blog/html-required-versus-aria-required)
+For explanation on best use of the required attribute.
+
 
 All the Code Institute team and special thanks to Anna Greaves, Matt Rudge, ...
 
