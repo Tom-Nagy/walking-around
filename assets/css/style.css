@@ -28,7 +28,7 @@ body {
     font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .logo span {
         font-weight: 500;
         color: #c7530f;
@@ -289,11 +289,15 @@ for the following css to make text more readable.*/
 
 .theclub-def p,
 .theclub-quotes p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 }
 
 /* -------------------------------------------------------------------------------- Activities */
+
+.activities-wrapper {
+    background-image: #bf9075 url("") no-repeat;
+}
 
 .activities-wrapper .row {
     height: 100vh;
@@ -332,6 +336,10 @@ for the following css to make text more readable.*/
 
 .hikingtips-wrapper {
     height: 100vh;
+    background-image: #bf9075 url("") no-repeat;
+}
+
+.outer-row {
     padding-top: 128px;
     padding-bottom: 50px;
     margin-left: 0.5rem;
@@ -346,13 +354,15 @@ for the following css to make text more readable.*/
     padding-bottom: 50px;
  }
 
- 
  .tips-content {
     padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
     background-color: #84a9d980;
     
+    font-size: 18px;
+    font-weight: 500;
+
     display: table-cell;
     vertical-align: middle;
  }
@@ -383,6 +393,8 @@ for the following css to make text more readable.*/
     font-weight: 500;
  }
 
+/* ---------- Pdf download icon  */
+
 .tips-titles h3 i {
     font-size: 1.5rem;
     padding-left: 20px;
@@ -392,6 +404,8 @@ for the following css to make text more readable.*/
 .tips-titles h3 i:hover {
     color: #c7530f;
 }
+
+/* ---------- Responsive title and download icon */
 
 @media (max-width: 520px) {
     .tips-titles h3 span {
@@ -404,6 +418,8 @@ for the following css to make text more readable.*/
     }
 }
 
+/* ---------- Extra tips links */
+
 .tips-content a {
     padding: 5px;
     text-decoration: none;
@@ -415,4 +431,102 @@ for the following css to make text more readable.*/
     text-align: center;
 }
 
+/* -------------------------------------------------------------------------------- Get in touch! */
 
+.form-wrapper {
+    height: 100vh;
+    padding: 0;
+    background-image: #bf9075 url("") no-repeat;
+}
+
+.form-wrapper .row {
+    height: 100vh;
+    padding-top: 128px;
+    padding-bottom: 50px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.form-sections {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+.form-wrapper h3 {
+    font-family: "Cormorant Garamont", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.quotes {
+    
+    padding: 16px;
+    border: 6px outset #736640;
+    border-radius: 16px;
+    background-color: #84a9d980;
+
+    text-align: center;
+}
+
+/* ---------- Form */
+
+.form {
+    padding: 16px;
+    background-color: #c4ddf280;
+    border-radius: 10px;
+}
+
+.form h3 {
+    margin-bottom: 20px;
+    font-family: "Cormorant Garamont", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.form div {
+    padding: 3px;
+    margin-top: 16px;
+}
+
+.form div label {
+    width: 60%;
+    margin: auto;
+    display: block;
+
+    font-size: 18px;
+    font-weight: 500; 
+    line-height: 18px;
+    text-align: center;
+}
+
+.form div textarea,
+.form div input {
+    width: 60%;
+    margin: auto;
+    padding: 2px;
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: #fafafa80;
+    display: block;
+}
+
+.form .btn {
+    padding: 6px;
+    border-width: 4px;
+    border-style: outset;
+    background-color: #fafafab3;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+    display: block;
+    margin: auto;
+}
+
+.form .btn:hover {
+    background-color: #198754;
+    color: #fafafa;
+}
