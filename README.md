@@ -1,8 +1,8 @@
 # **Walking Around**
 
-Walking Around is a Club situated in Bray (County Wicklow, Ireland) that 
-consist to a group of people of all ages and background that enjoy hiking.  
-The Club meet regularly to acomplish different types of walks from 
+Walking Around is a Club situated in Bray (County Wicklow, Ireland). It is a group of people 
+from all ages and background that enjoy hiking.  
+The Club meet regularly to accomplish different types of walks from 
 easy to advanced difficulties.
 
 ### Project Goals
@@ -14,11 +14,11 @@ order to **attract** the audience into **joining** the Club.
 
 * Build a static website using HTML and CSS.
 * Advertise and Promote the Club by :
-  * Providing acurate and useful informations.
+  * Providing accurate and useful information.
   * Providing an excellent User Experience (UX).
 * Grow of the Club member's population by :
   * Attracting people to join the Club.
-  * Using a User Centric Developement approach (UCD).
+  * Using a User Centric Development approach (UCD).
 
 ### User Goals
 
@@ -39,7 +39,7 @@ would have as well an interest in outdoor activities, sport, healthy living and 
 #### The targeted audience for this website is looking for :
 
 * Outdoor activities.
-* Beeing part of a group, a community.
+* Being part of a group, a community.
 * Discovering Ireland.
 * Hiking tips.
 
@@ -55,7 +55,7 @@ would have as well an interest in outdoor activities, sport, healthy living and 
 1. As a first time user, I want the website to be appealing.
 2. As a first time user, I want the navigation to be easy and intuitive.
 3. As a first time user, I want the content to be informative but not overwhelming.
-4. As a first time user, I want to understand immediatly what is the website about 
+4. As a first time user, I want to understand immediately what is the website about 
 without the need of looking for it.
 5. As a first time user, I want to be able to apply for joining the Club.
 6. As a returning user, I want to see when and where are the Club's meetings.
@@ -86,7 +86,7 @@ the same color scheme as the website.
 The [color scheme](assets/images/colors.png) of the website has been extracted from a picture using [Adobe Color](https://color.adobe.com/create/image) 
 and swatches are said to be color blind safe by the same website using the [accessibility tool](https://color.adobe.com/create/color-accessibility).  
 The colors use are as follow : #84A9D9 / #C4DDF2 / #717334 / #736640 / #BF9075.
-An Orange shade (#C7530F) is used for links. It is distinctive and with a good contrast.
+An Orange shade (#C7530F) is used for links. A off white (#FAFAFA) is used for font color. They are distinctive and with a good contrast.
 
 #### Images
 
@@ -127,8 +127,8 @@ bar become a toggle on small devices.
 **The footer** present a button with the link "Get in touch !" on the 
 left that bring the user to the application form.  
 As well, social media logos on the right linked to different websites for 
-additional informations on hiking.
-The "copyright" (For eductionial use) is in the middle with responsive text to fit on small devices. 
+additional information on hiking.
+The "copyright" (For educational use) is in the middle with responsive text to fit on small devices. 
 
 All pages feature an hero image, taking all the viewport, bringing 
 the sensation of open space and immersion into Nature.
@@ -144,7 +144,7 @@ users desire to be part of the Club. This button will lead the users to fill up 
 #### The Club
 
 This section is on two pages. The first page gives general 
-informations about the Club, distributed in three columns. From left 
+information about the Club, distributed in three columns. From left 
 to right: its goals, its location and motivational quotes. It Features 
 a zoom in effect from [Google Earth](https://www.google.com/intl/fr/earth/) 
 to locate Ireland on the middle and the background of the all viewport. 
@@ -172,7 +172,7 @@ On this page are presented three major hiking tips. They are available
 to download on pdf format. Those tips are presented in three columns 
 next to each other on large and medium devices and below each other 
 on small devices.
-A Titile and encouragement is display on large screen only.
+A Title and encouragement is display on large screen only.
 
 #### Get in touch !
 
@@ -216,7 +216,7 @@ using GitPod Command Line Interface (CLI).
 
 ## Live Deployment
 
-To make this website accessicle to the public, Walking Around 
+To make this website accessible to the public, Walking Around 
 has been deployed on [GitHub Pages]() as follow :
 
 1. Log in to my GitHub account.
@@ -358,6 +358,8 @@ For tips on vertical alignment in CSS.
 [USERWAY](https://userway.org/blog/html-required-versus-aria-required)
 For explanation on best use of the required attribute.
 
+[Manindra Singh](https://stackoverflow.com/questions/31685234/bootstrap-carousel-slider-4-images-at-once-only-shows-one-image-at-a-time)  
+For Bootstrap Carousel 4 slides at once html code.
 
 All the Code Institute team and special thanks to Anna Greaves, Matt Rudge, ...
 
@@ -375,3 +377,8 @@ Hiking Tips :
 [Layering tips](https://www.youtube.com/watch?v=nxvJap9lyes&feature=emb_title)
 [Find Your Partner](https://www.pinterest.ie/pin/452400725075206099/)
 [Not Alone](https://www.pinterest.ie/pin/47428602314872197/)
+
+Images :
+The images used on the website are taken from a Hiking groupe on [Facebook](https://www.facebook.com/groups/hikingirelandgroup) with the permission 
+of the photographers.
+[Picture from Pj Costello]()
