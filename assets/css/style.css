@@ -11,7 +11,7 @@ body {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-right: 15px;
+    background-color: #c4ddf2cc;
 }
 
 /* ---------- Logo */
@@ -72,6 +72,7 @@ body {
 
 footer {
     padding: 12px 12px 12px 12px;
+    background-color: #c4ddf2cc;
 }
 
 footer div {
@@ -139,7 +140,7 @@ footer div {
 
 #copyright {
     padding: 2px 2px;
-    background-color: #c4ddf280;
+    background-color: #c4ddf2;
     border-radius: 3px;
 
 }
@@ -260,8 +261,7 @@ for the following css to make text more readable.*/
     height: 100vh;
     padding-top: 128px;
     padding-bottom: 50px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 20px 1rem;
 }
 
 .theclub-def {
@@ -289,7 +289,7 @@ for the following css to make text more readable.*/
 
 .theclub-def p,
 .theclub-quotes p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -303,12 +303,11 @@ for the following css to make text more readable.*/
     height: 100vh;
     padding-top: 128px;
     padding-bottom: 50px;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-top: 20px;
 }
 
 .activities-sections {
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .activities-sections div,
@@ -322,7 +321,7 @@ for the following css to make text more readable.*/
     display: table-cell;
     vertical-align: middle;
 
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -330,6 +329,7 @@ for the following css to make text more readable.*/
 .activities-sections h3 {
     text-align: center;
     font-size: 2rem;
+    letter-spacing: 6px;
 }
 
 /* -------------------------------------------------------------------------------- Hiking Tips */
@@ -339,11 +339,9 @@ for the following css to make text more readable.*/
     background-image: #bf9075 url("") no-repeat;
 }
 
-.outer-row {
-    padding-top: 128px;
-    padding-bottom: 50px;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+.tips-outer-row {
+    padding-top: 148px;
+    padding-bottom: 70px;
 }
 
 .hikingtips-wrapper .row {
@@ -360,7 +358,7 @@ for the following css to make text more readable.*/
     border-radius: 25px;
     background-color: #84a9d980;
     
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 
     display: table-cell;
@@ -381,6 +379,7 @@ for the following css to make text more readable.*/
 
 .tips-titles {
     padding: 0;
+    
 }
 
 .tips-titles h3 {
@@ -389,7 +388,7 @@ for the following css to make text more readable.*/
 
  .tips-titles h3 span {
     font-family: "Cormorant Garamont", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
  }
 
@@ -453,13 +452,13 @@ for the following css to make text more readable.*/
     padding-bottom: 60px;
 }
 
-.form-wrapper h3 {
+/* .form-wrapper h4 {
     font-family: "Cormorant Garamont", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 2.5rem;
     text-align: center;
-}
+} */
 
 .quotes {
     
@@ -479,11 +478,14 @@ for the following css to make text more readable.*/
     border-radius: 10px;
 }
 
-.form h3 {
+.form h4 {
     margin-bottom: 20px;
     font-family: "Cormorant Garamont", sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    line-height: 2.5rem;
+    text-align: center;
 }
 
 .form div {
@@ -492,7 +494,7 @@ for the following css to make text more readable.*/
 }
 
 .form div label {
-    width: 60%;
+    width: 70%;
     margin: auto;
     display: block;
 
@@ -504,7 +506,7 @@ for the following css to make text more readable.*/
 
 .form div textarea,
 .form div input {
-    width: 60%;
+    width: 80%;
     margin: auto;
     padding: 2px;
     border: black 1px solid;
@@ -529,4 +531,56 @@ for the following css to make text more readable.*/
 .form .btn:hover {
     background-color: #198754;
     color: #fafafa;
+}
+
+@media (max-width: 375px) {
+    .form h4 {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .form div label {
+        font-size: 14px;
+    }
+}
+
+/* -------------------------------------------------------------------------------- Gallery */
+
+.gallery-wrapper {
+    margin: 0;
+    background-color: black;
+}
+
+.gallery-wrapper .row {
+    margin-top: 128px;
+    margin-bottom: 50px;
+}
+
+.photo-container {
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.photo-container h5 {
+    font-family: "Cormorant Garamont", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fafafa;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.photo {
+    position: absolute;
+}
+
+.photo-container span {
+    padding: 2px;
+    font-size: 10px;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    position: relative;
+    bottom: 25px;
+    left: 5px;
 }
