@@ -542,7 +542,7 @@ for the following css to make text more readable.*/
 
 .gallery-wrapper {
     height: 100vh;
-    background: #bf9075 url("../images/gallery/Catherine-Ryan-cliffs-of-moher.jpg") no-repeat;
+    background: #bf9075 url("../images/gallery/Sorcha-ni-lough-gur.jpg") no-repeat;
     background-size: cover;
      
 }
@@ -591,4 +591,11 @@ for the following css to make text more readable.*/
 .carousel-controls {
     font-size: 2rem;
     text-decoration: none;
+}
+
+.modal button {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background-color: rgb(209, 20, 20);
 }
