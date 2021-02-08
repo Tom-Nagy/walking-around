@@ -64,72 +64,128 @@
     </header>
 
     <!-- Gallery -->
+
     <section class="container-fluid gallery-wrapper">
-        <div class="row">
-            <div class="col-6 col-md-4 photo-container">
-                <h5>Diamond Hill</h5>
-                <img src="assets/images/gallery/Antoinette-Fallon-connemara.jpg" alt="View from Diamond Hill." class="img-fluid photos">
-                <span>Credit: Antoinette Fallon</span>
-            </div>
-            <div class="col-6 col-md-4 photo-container">
-                <h5>Mount Brandon</h5>
-                <img src="assets/images/gallery/Catherine-Ryan-brandon.jpg" alt="View from Mount Brandon." class="img-fluid photos">
-                <span>Credit: Catherine Ryan</span>
-            </div>
-            <div class="col-6 col-md-4 photo-container">
-                <h5>The Burren</h5>
-                <img src="assets/images/gallery/Catherine-Ryan-burren.jpg" alt="View of the Burren hills." class="img-fluid photos">
-                <span>Credit: Catherine Ryan</span>
-            </div>
-            <div class="col-6 col-md-4 photo-container">
-                <h5>The Burren</h5>
-                <img src="assets/images/gallery/Catherine-Ryan-burren2.jpg" alt="View of the Burren hills." class="img-fluid photos">
-                <span>Credit: Catherine Ryan</span>
-            </div>
-            <div class="col-6 col-md-4 photo-container">
-                <h5>Cliffs of Moher</h5>
-                <img src="assets/images/gallery/Catherine-Ryan-cliffs-of-moher.jpg" alt="View of the Cliffs of Moher." class="img-fluid photos">
-                <span>Credit: Catherine Ryan</span>
-            </div>
-            <div class="col-6 col-md-4 photo-container">
-                <h5>Comeragh Mountains</h5>
-                <img src="assets/images/gallery/Ger-Penkert-comeragh.jpg" alt="View of the sunset in the Comeragh Mountains." class="img-fluid photos">
-                <span>Credit: Ger Penkert</span>
-            </div>
-            <div class="col-6 col-md-4 photo-container">
-                <h5>Comeragh Mountains</h5>
-                <img src="assets/images/gallery/Ger-Penkert-comeragh2.jpg" alt="View of the Comeragh Mountains under the snow." class="img-fluid photos">
-                <span>Credit: Ger Penkert</span>
-            </div>
-            <div class="col-6 col-md-4 photo-container">
-                <h5>Coumshingau Mountains</h5>
-                <img src="assets/images/gallery/Ger-Penkert-Coumshingaun.jpg" alt="View of the Coumshingau Mountains." class="img-fluid photos">
-                <span>Credit: Ger Penkert</span>
-            </div>
-            <div class="col-6 col-md-4 photo-container">
-                <h5>Lough Mohra</h5>
-                <img src="assets/images/gallery/Ger-Penkert-lough-mohra.jpg" alt="View of the Lough Mohra." class="img-fluid photos">
-                <span>Credit: Ger Penkert</span>
-            </div>
-            <div class="col-6 col-md-4 photo-container">
-                <h5>Wicklow Hills</h5>
-                <img src="assets/images/gallery/Pj-Costello-wicklow.jpg" alt="View of the Wicklow Hills." class="img-fluid photos">
-                <span>Credit: Pj Costello</span>
-            </div>
-            <div class="col-6 col-md-4 photo-container">
-                <h5>Annascaul Mountains</h5>
-                <img src="assets/images/gallery/Sorcha-Ni-Shuilleabhain-annascaul.jpg" alt="View of Mountains in Annascaul." class="img-fluid photos">
-                <span>Credit: Sorcha Ni Shuilleabhain</span>
-            </div>
-            <div class="col-6 col-md-4 photo-container">
-                <h5>Derrynane Beach</h5>
-                <img src="assets/images/gallery/Sorcha-Ni-Shuilleabhain-derrynane.jpg" alt="View of Derrynane Beach." class="img-fluid photos">
-                <span>Credit: Sorcha Ni Shuilleabhain</span>
+        <div class="row gallery-title">
+            <div class="col-12">
+                <h3>Pictures taken while Walking Around <i class="fas fa-hiking"></i></h3> 
             </div>
         </div>
-
+        <div class="row align-items-center">
+            <!-- Bootstrap carousel with two slides at once -->
+            <div class="col-12 d-block">
+                <div id="gallery" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <ol class="carousel-indicators">
+                        <li data-target="#gallery" data-slide-to="0" class="active"></li>
+                        <li data-target="#gallery" data-slide-to="1"></li>
+                        <li data-target="#gallery" data-slide-to="2"></li>
+                        <li data-target="#gallery" data-slide-to="3"></li>
+                        <li data-target="#gallery" data-slide-to="4"></li>
+                        <li data-target="#gallery" data-slide-to="5"></li>
+                        <li data-target="#gallery" data-slide-to="6"></li>
+                        <li data-target="#gallery" data-slide-to="7"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Catherine-Ryan-brandon" 
+                                    src="assets/images/gallery/Catherine-Ryan-brandon.jpg" alt="View from Mount Brandon.">
+                                </div>
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Catherine-Ryan-burren" 
+                                    src="assets/images/gallery/Catherine-Ryan-burren.jpg" alt="View of the Burren hills.">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Ger-penkert-copper-coast" 
+                                    src="assets/images/gallery/Ger-penkert-copper-coast.jpg" alt="View of the Copper Coast.">
+                                </div>
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Ger-Penkert-comeragh" 
+                                    src="assets/images/gallery/Ger-Penkert-comeragh.jpg" alt="View of the Comeragh Mountains under the snow.">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Ger-Penkert-Coumshingaun" 
+                                    src="assets/images/gallery/Ger-Penkert-Coumshingaun.jpg" alt="View of the Coumshingau Mountains.">
+                                </div>
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Ger-Penkert-lough-mohra" 
+                                    src="assets/images/gallery/Ger-Penkert-lough-mohra.jpg" alt="View of the Lough Mohra.">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Pj-Costello-wicklow" 
+                                    src="assets/images/gallery/Pj-Costello-wicklow.jpg" alt="View of the Wicklow Hills.">
+                                </div>
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Sorcha-Ni-Shuilleabhain-annascaul" 
+                                    src="assets/images/gallery/Sorcha-Ni-Shuilleabhain-annascaul.jpg" alt="View of Mountains around Annascaul.">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Sorcha-Ni-Shuilleabhain-derrynane" 
+                                    src="assets/images/gallery/Sorcha-Ni-Shuilleabhain-derrynane.jpg" alt="View of Derrynane Beach.">
+                                </div>
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Tom-Nagy-wicklow" 
+                                    src="assets/images/gallery/Tom-Nagy-wicklow.jpg" alt="View of Wicklow Mountains.">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Tom-Nagy-little-sugarloaf-trail" 
+                                    src="assets/images/gallery/Tom-Nagy-little-sugarloaf-trail.jpg" alt="View of the trail on the Little Sugar Loaf.">
+                                </div>
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Tom-Nagy-little-sugarloaf" 
+                                    src="assets/images/gallery/Tom-Nagy-little-sugarloaf.jpg" alt="View of the Little Sugar Loaf.">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Tom-Nagy-brandon-up" 
+                                    src="assets/images/gallery/Tom-Nagy-brandon-up.jpg" alt="View of the way up to the Mount Brandon.">
+                                </div>
+                                <div class="col-6">
+                                    <img class="d-block w-100" data-toggle="modal" data-target="#Tom-Nagy-brandon-down" 
+                                    src="assets/images/gallery/Tom-Nagy-brandon-down.jpg" alt="View of the way down from the Mount Brandon.">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev carousel-controls" href="#gallery" role="button" data-slide="prev">
+                        <!-- Change the Bootstrap icons with Font Awesome icons -->
+                        <i class="fas fa-chevron-circle-left" aria-hidden="true"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next carousel-controls" href="#gallery" role="button" data-slide="next">
+                        <i class="fas fa-chevron-circle-right" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
-   
+
+
     <!-- Footer -->
     <footer class="container-fluid fixed-bottom">
         <div class="footer-containers">

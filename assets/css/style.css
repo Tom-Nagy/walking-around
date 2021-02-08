@@ -185,7 +185,6 @@ footer div {
     height: 100vh;
     background: #bf9075 url("../images/gallery/brandon-hike.jpg") top center no-repeat;
     background-size: cover;
-    overflow: hidden;
 }
 
 .home-wrapper .row {
@@ -325,6 +324,9 @@ for the following css to make text more readable.*/
     font-weight: 500;
 }
 
+.activities-sections div {
+    padding-right: 30px;
+}
 
 .activities-sections h3 {
     text-align: center;
@@ -452,14 +454,6 @@ for the following css to make text more readable.*/
     padding-bottom: 60px;
 }
 
-/* .form-wrapper h4 {
-    font-family: "Cormorant Garamont", sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 2.5rem;
-    text-align: center;
-} */
-
 .quotes {
     
     padding: 16px;
@@ -547,40 +541,54 @@ for the following css to make text more readable.*/
 /* -------------------------------------------------------------------------------- Gallery */
 
 .gallery-wrapper {
-    margin: 0;
-    background-color: black;
+    height: 100vh;
+    background: #bf9075 url("../images/gallery/Catherine-Ryan-cliffs-of-moher.jpg") no-repeat;
+    background-size: cover;
+     
 }
 
-.gallery-wrapper .row {
+.gallery-title {
     margin-top: 128px;
-    margin-bottom: 50px;
+    padding: 60px;
 }
 
-.photo-container {
-    padding-top: 33px;
-    padding-bottom: 33px;
+@media (max-width: 375px) {
+    .gallery-title {
+        margin-top: 108px;
+    }
 }
 
-.photo-container h5 {
+.gallery-title h3 {
     font-family: "Cormorant Garamont", sans-serif;
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-weight: 500;
-    color: #fafafa;
-    line-height: 1rem;
     text-align: center;
+    letter-spacing: 3px;
 }
 
-.photo {
-    position: absolute;
+@media (max-width: 750px){
+    .gallery-title h3 {
+        font-size: 14px;    
+    }
 }
 
-.photo-container span {
-    padding: 2px;
-    font-size: 10px;
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, 0.7);
-
+.carousel {
     position: relative;
-    bottom: 25px;
-    left: 5px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -60px;
+    margin-bottom: 60px;
+
+}
+
+.carousel-indicators li {
+    height: 0.5rem;
+    width: 0.8rem;
+}
+
+.carousel-controls {
+    font-size: 2rem;
+    text-decoration: none;
 }
