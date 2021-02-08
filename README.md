@@ -329,6 +329,11 @@ Solve : The "sr-only" class goes with aria-hidden attribute.
 
 Issue : The callout button of the hone page is not aligned with the the copyright text.
 Solve :
+
+Issue : The middle column in activities.html show a gap on very large screens and is not horizontally centered on medium screens.
+Solve : Add some extra padding-left to the div that wrap the content to fix the gap. Add an extra classe "col-sm-8" to better fit with the content 
+so that the column is centered horizontally.  
+
 ### Solved
 
 
@@ -379,6 +384,27 @@ Hiking Tips :
 [Not Alone](https://www.pinterest.ie/pin/47428602314872197/)
 
 Images :
-The images used on the website are taken from a Hiking groupe on [Facebook](https://www.facebook.com/groups/hikingirelandgroup) with the permission 
-of the photographers.
-[Picture from Pj Costello]()
+Some of the images used on the website are taken from a Hiking groupe on [Facebook](https://www.facebook.com/groups/hikingirelandgroup) with the permission 
+of the photographers. The rest of them are from myself.
+
+[Picture from Pj Costello](assets/images/gallery/Pj-Costello-wicklow.jpg)
+
+Pictures from Sorcha Ni Shuilleabhain:
+[Annascaul](assets/images/gallery/Sorcha-Ni-Shuilleabhain-annascaul.jpg)
+[Derrynane]("assets/images/gallery/Sorcha-Ni-Shuilleabhain-derrynane.jpg)
+
+Pictures from Ger Penkert:
+[Mohra](assets/images/gallery/Ger-Penkert-lough-mohra.jpg)
+[Cumshingau](assets/images/gallery/Ger-Penkert-Coumshingaun.jpg)
+[Comeragh](assets/images/gallery/Ger-Penkert-comeragh.jpg)
+[Copper Coast](assets/images/gallery/Ger-Penkert-copper-coast.jpg)
+
+Pictures from Catherine Ryan:
+[Burren](assets/images/gallery/Catherine-Ryan-burren.jpg)
+[Brandon](assets/images/gallery/Catherine-Ryan-brandon.jpg)
+
+
+
+
+
+All the images have been resized using [TinyPNG](https://tinypng.com/).
