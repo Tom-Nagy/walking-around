@@ -260,6 +260,7 @@ for the following css to make text more readable.*/
     background-attachment: fixed;
 }
 
+/* Responsive height for the background image to fill up all the available space*/
 @media (min-width: 768px) {
     .theclub-wrapper {
         height: 150vh;
@@ -284,7 +285,7 @@ for the following css to make text more readable.*/
     padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
-    background-color: #84a9d980;
+    background-color: #84a9d9cc;
     
     margin-bottom: 50px;
 }
@@ -298,7 +299,7 @@ for the following css to make text more readable.*/
     padding: 16px;
     border: 6px outset #736640;
     border-radius: 16px;
-    background-color: #84a9d980;
+    background-color: #84a9d9cc;
 
     text-align: center;
 }
@@ -317,6 +318,7 @@ for the following css to make text more readable.*/
     background-size: cover;
 }
 
+/* Responsive height for the background image to fill up all the available space*/
 @media (min-width: 768px) {
     .activities-wrapper {
         height: 150vh;
@@ -355,7 +357,7 @@ for the following css to make text more readable.*/
     padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
-    background-color: #84a9d980;
+    background-color: #84a9d9cc;
     
     height: 33vh;
     display: table-cell;
@@ -443,13 +445,34 @@ for the following css to make text more readable.*/
 /* -------------------------------------------------------------------------------- Hiking Tips */
 
 .hikingtips-wrapper {
-    height: 100vh;
-    background-image: #bf9075 url("") no-repeat;
+    height: 2300px;
+    background: #bf9075 url("../images/background/killiney.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Responsive height for the background image to fill up all the available space*/
+@media (min-width: 768px) {
+    .hikingtips-wrapper {
+        height: 1600px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hikingtips-wrapper {
+        height: 1400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hikingtips-wrapper {
+        height: 110vh;
+    }
 }
 
 .tips-outer-row {
     padding-top: 148px;
-    padding-bottom: 70px;
+    
 }
 
 .hikingtips-wrapper .row {
@@ -464,24 +487,21 @@ for the following css to make text more readable.*/
     padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
-    background-color: #84a9d980;
+    background-color: #84a9d9cc;
     
     font-size: 16px;
     font-weight: 500;
-
-    display: table-cell;
-    vertical-align: middle;
  }
 
  @media (min-width: 1200px) {
      .tips-content {
         height: 40vh;
         overflow-y: auto;
-        display: block;
+        
      }
 
      .tips-sections {
-         padding-top: 230px;
+         padding-top: 220px;
      }
  }
 
@@ -498,7 +518,23 @@ for the following css to make text more readable.*/
     font-family: "Cormorant Garamont", sans-serif;
     font-size: 1.8rem;
     font-weight: 500;
+    color: #bf9075;
  }
+
+ /* Credit to George Dimitriadis https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color 
+for the following css to make text more readable.*/
+
+.tips-titles h3 span {
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+}
 
 /* ---------- Pdf download icon  */
 
@@ -541,9 +577,29 @@ for the following css to make text more readable.*/
 /* -------------------------------------------------------------------------------- Get in touch! */
 
 .form-wrapper {
-    height: 100vh;
-    padding: 0;
-    background-image: #bf9075 url("") no-repeat;
+    height: 850px;
+    background: #bf9075 url("../images/background/trees.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Responsive height for the background image to fill up all the available space*/
+@media (min-width: 768px) {
+    .form-wrapper {
+        height: 1050px;
+    }
+}
+
+@media (min-width: 992px) {
+    .form-wrapper {
+        height: 900px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .form-wrapper {
+        height: 110vh;
+    }
 }
 
 .form-wrapper .row {
@@ -565,7 +621,7 @@ for the following css to make text more readable.*/
     padding: 16px;
     border: 6px outset #736640;
     border-radius: 16px;
-    background-color: #84a9d980;
+    background-color: #84a9d9cc;
 
     text-align: center;
 }
@@ -574,7 +630,7 @@ for the following css to make text more readable.*/
 
 .form {
     padding: 16px;
-    background-color: #c4ddf280;
+    background-color: #c4ddf2cc;
     border-radius: 10px;
 }
 
@@ -598,7 +654,7 @@ for the following css to make text more readable.*/
     margin: auto;
     display: block;
 
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 500; 
     line-height: 18px;
     text-align: center;
@@ -643,9 +699,3 @@ for the following css to make text more readable.*/
         font-size: 14px;
     }
 }
-
-
-
-/* -------------------------------------------------------------------------------- Common style */
-
-/* --------- Responsive margin top to follow the size of the responsive logo */
