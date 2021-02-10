@@ -117,12 +117,13 @@ A few short video will be included in the gallery.
 #### Repeated Features
 
 On all pages and devices there is a fix header on the top 
-and a fix footer on the bottom. They are both display with a clear
-opacity or transparent in order to see the hero image through.
+and a fix footer on the bottom of the viewport.
 
 **The header** present the logo and the name of the Website on the 
 left and a responsive navigation bar on the right. The navigation 
-bar become a toggle on small devices. 
+bar become a toggle on small devices. As well the name of the website 
+become the title's page name on small devices in order to help identify on which 
+page the user is situated.
 
 **The footer** present a button with the link "Get in touch !" on the 
 left that bring the user to the application form.  
@@ -162,24 +163,22 @@ users to scroll down or click and continue exploring the website.
 
 The gallery present pictures and video taken during hikes. It features 
 the great Irish landscape and trails.  
-It is presented as a carousel with different picture sizes depending 
-on the device. The number of pictures on the page changes depending 
-on the device in order to keep a good user experience.  
+It is presented as a carousel and display a modal when the image is clicked on 
+to focus on the image and see the images titles and credits.
 
 #### Hiking Tips
 
 On this page are presented three major hiking tips. They are available 
-to download on pdf format. Those tips are presented in three columns 
-next to each other on large and medium devices and below each other 
+to download on pdf format by clicking on the download icon beside the tip's tile. 
+Those tips are presented in three columns next to each other on large and medium devices and below each other 
 on small devices.
-A Title and encouragement is display on large screen only.
 
 #### Get in touch !
 
 This page features a form to fill up in order to apply for joining 
-the Club. It is presented on the middle of the screen with a title that 
-reinforce the emotional response into the action taken.
-On large screen there is a motivational quote.
+the Club. It is presented on the middle of the screen. 
+Beside the form on large screen; and on the top on small screen, motivational quotation will be presented 
+to reenforce the emotional response into the action taken.
 
 ### **Features to Implement in the Future Versions**
 
@@ -190,6 +189,9 @@ On large screen there is a motivational quote.
 #### Activities
 
 #### Gallery
+ 
+Add responsiveness to the carousel with the number of pictures per slide that changes depending 
+on the device size.  
 
 #### Hiking Tips
 
@@ -259,7 +261,7 @@ To clone a repository, take the following steps :
     * using SSH key
     * using GitHub CLI  
 
-![clone otions](assets/images/cloning.png)
+![clone options](assets/images/cloning.png)
 
 4. Choose an option and copy the link given.
 5. Change the current working directory to the location where you want the cloned directory.
@@ -331,8 +333,12 @@ Issue : The callout button of the hone page is not aligned with the the copyrigh
 Solve :
 
 Issue : The middle column in activities.html show a gap on very large screens and is not horizontally centered on medium screens.
-Solve : Add some extra padding-left to the div that wrap the content to fix the gap. Add an extra classe "col-sm-8" to better fit with the content 
-so that the column is centered horizontally.  
+Solve : Add ```display: inline``` to the <ul> of the middle column so it behave like a <p> as in the other column. I the added some 
+margin-left to the <li> so the markers display within the column and don't "stick" to the left.   
+
+Issue : The background-image is flickering when scrolling the content.
+solve : 
+
 
 ### Solved
 
@@ -387,11 +393,6 @@ Images :
 Some of the images used on the website are taken from a Hiking groupe on [Facebook](https://www.facebook.com/groups/hikingirelandgroup) with the permission 
 of the photographers. The rest of them are from myself.
 
-[Picture from Pj Costello](assets/images/gallery/Pj-Costello-wicklow.jpg)
-
-Pictures from Sorcha Ni Shuilleabhain:
-[Annascaul](assets/images/gallery/Sorcha-Ni-Shuilleabhain-annascaul.jpg)
-[Derrynane]("assets/images/gallery/Sorcha-Ni-Shuilleabhain-derrynane.jpg)
 
 Pictures from Ger Penkert:
 [Mohra](assets/images/gallery/Ger-Penkert-lough-mohra.jpg)
@@ -401,7 +402,7 @@ Pictures from Ger Penkert:
 
 Pictures from Catherine Ryan:
 [Burren](assets/images/gallery/Catherine-Ryan-burren.jpg)
-[Brandon](assets/images/gallery/Catherine-Ryan-brandon.jpg)
+
 
 
 
