@@ -1,9 +1,47 @@
 # **Walking Around**
 
+![mockup](assets/images/markdown-images/ami-responsive-home.png)
+
+Check out the other mockup:
+* [The club](assets/images/markdown-images/ami-responsive-theclub.png)
+* [Activities](assets/images/markdown-images/ami-responsive-activities.png)
+* [Gallery](assets/images/markdown-images/ami-responsive-gallery.png)
+* [Hiking Tips](assets/images/markdown-images/ami-responsive-hikingtips.png)
+* [Get in touch!](assets/images/markdown-images/ami-responsive-getintouch.png)
+
+#### Visit the live Website by clicking **[here](https://tom-nagy.github.io/walking-around/)**.
+
 Walking Around is a Club situated in Bray (County Wicklow, Ireland). It is a group of people 
 from all ages and background that enjoy hiking.  
 The Club meet regularly to accomplish different types of walks from 
 easy to advanced difficulties.
+
+## Table of Content : 
+
+* [Project]()
+    * [Project Goals](https://github.com/Tom-Nagy/walking-around#Project-Goals)
+    * [Developer and Business Goals](https://github.com/Tom-Nagy/walking-around#Developer-and-Business-Goals)
+    * [User Goals](https://github.com/Tom-Nagy/walking-around#User-Goals)
+ * [UX](https://github.com/Tom-Nagy/walking-around#UX)
+    * [Audience Definition](https://github.com/Tom-Nagy/walking-around#Audience-Definition)
+    * [User Stories](https://github.com/Tom-Nagy/walking-around#User-Stories)
+    * [Design Choices](https://github.com/Tom-Nagy/walking-around#Design-Choices)
+    * [Wireframes](https://github.com/Tom-Nagy/walking-around#Wireframes)
+* [Features](https://github.com/Tom-Nagy/walking-around#Features)
+    * [Existing Features](https://github.com/Tom-Nagy/walking-around#Existing-Features)
+    * [Features to Implement in the Future Versions](https://github.com/Tom-Nagy/walking-around#Features-to-Implement-in-the-Future-Versions)
+* [Technologies Used](https://github.com/Tom-Nagy/walking-around#Technologies-Used)
+* [Testing](https://github.com/Tom-Nagy/walking-around#Testing)
+* [Deployment](https://github.com/Tom-Nagy/walking-around#Deployment)
+    * [Live Deployment](https://github.com/Tom-Nagy/walking-around#Live-Deployment)
+    * [Local Deployment](https://github.com/Tom-Nagy/walking-around#Local-Deployment)
+* [Bugs](https://github.com/Tom-Nagy/walking-around#Bugs)
+    * [Solved](https://github.com/Tom-Nagy/walking-around#Solved)
+    * [Unsolved](https://github.com/Tom-Nagy/walking-around#Unsolved)
+* [Credits](https://github.com/Tom-Nagy/walking-around#Credits)
+    
+
+# Project
 
 ### Project Goals
 
@@ -74,24 +112,25 @@ very well on screen. It will be paired with the ***Cormorant Garmont*** font bec
 as [Typewolf](https://www.typewolf.com/blog/google-fonts-combinations) says :
 >both designs have a strong calligraphic feel that ties them together.
 
-
 #### Icons
 
-* Fontawesome icons will be used for better user experience.
-* The [logo](assets/images/logo.png) and [favicon](assets/images/favicon.ico) are the same image for comfort and consistency and use 
+* FontAwesome icons will be used for better user experience.
+* The [logo](assets/images/gallery/logo.png) and [favicon](assets/images/favicon.ico) are the same image for comfort and consistency and use 
 the same color scheme as the website.
 
 #### Colors
 
-The [color scheme](assets/images/colors.png) of the website has been extracted from a picture using [Adobe Color](https://color.adobe.com/create/image) 
+The [color scheme](assets/images/markdown-images/colors.png) of the website has been extracted from a picture using [Adobe Color](https://color.adobe.com/create/image) 
 and swatches are said to be color blind safe by the same website using the [accessibility tool](https://color.adobe.com/create/color-accessibility).  
-The colors use are as follow : #84A9D9 / #C4DDF2 / #717334 / #736640 / #BF9075.
-An Orange shade (#C7530F) is used for links. A off white (#FAFAFA) is used for font color. They are distinctive and with a good contrast.
+
+![color scheme](assets/images/markdown-images/colors.png)
+
+As well an orange shade (#C7530F) is used for links. A off white (#FAFAFA) is used for font color. They are distinctive and with a good contrast.
 
 #### Images
 
 The hero image is important for the UX and is large, open and trigger the will to explore the website.  
-A gallery page is part of the website. There will be pictures of scenery, paths and walks in general.
+A gallery page is part of the website. There will be pictures of scenery, paths and walks.
 
 #### Styling and Feeling
 
@@ -100,15 +139,11 @@ The general feel of the website is the love of the outdoor and as well the love
 of sharing moments. This is brought by a simple and clean user interface with 
 a lot of space.
 
-#### Audio and Video
-
-A few short video will be included in the gallery.
-
 ### **Wireframes**
 
-* [Desktop](wireframes/desktop.pdf)
-* [Tablet](wireframes/tablet.pdf)
-* [Mobile](wireframes/mobile.pdf)
+* [Desktop](assets/wireframes/desktop.pdf)
+* [Tablet](assets/wireframes/tablet.pdf)
+* [Mobile](assets/wireframes/mobile.pdf)
 
 # Features
 
@@ -141,70 +176,105 @@ the viewport.
 Below there is a call to action button (Join Us). This is to trigger 
 users desire to be part of the Club. This button will lead the users to fill up the "Get in touch" form.
 
-
 #### The Club
 
-This section is on two pages. The first page gives general 
-information about the Club, distributed in three columns. From left 
-to right: its goals, its location and motivational quotes. It Features 
-a zoom in effect from [Google Earth](https://www.google.com/intl/fr/earth/) 
-to locate Ireland on the middle and the background of the all viewport. 
-That is used to give a wow factor.  
-On medium devices the location is not display.
-On small devices, only the Club goals and description will remain.  
+The Club content is display in three columns.  
+From left to right or top to bottom on smaller devices: its goals, its location and motivational quotes. It Features 
+a picture from [Google Earth](https://www.google.com/intl/fr/earth/) to locate the club in Ireland.   
+On medium and smaller devices the location is not display.  
 Arrows pointing down and linked to the following content will invite 
 users to scroll down or click and continue exploring the website.
 
-#### Activities 
+#### Activities
 
-
+The Activities are display in three columns.  
+From left to right or top to bottom on smaller devices: about the community, the activities, meetings. Each column as an icon to represent 
+and identify the content that is display.
 
 #### Gallery
 
-The gallery present pictures and video taken during hikes. It features 
-the great Irish landscape and trails.  
-It is presented as a carousel and display a modal when the image is clicked on 
-to focus on the image and see the images titles and credits.
+The Gallery present pictures taken during hikes. It features the great Irish landscape and trails.  
+It is presented as a carousel and display a modal when the image is clicked on to focus on the image and see the images titles and credits.
 
 #### Hiking Tips
 
-On this page are presented three major hiking tips. They are available 
-to download on pdf format by clicking on the download icon beside the tip's tile. 
+On this page are presented three major hiking tips. They are available to download on pdf format by clicking on the download 
+icon beside the tip's tile. 
 Those tips are presented in three columns next to each other on large and medium devices and below each other 
-on small devices.
+on small devices.  
+With each tip two links are provided for extra information on the subject.
 
 #### Get in touch !
 
 This page features a form to fill up in order to apply for joining 
 the Club. It is presented on the middle of the screen. 
-Beside the form on large screen; and on the top on small screen, motivational quotation will be presented 
-to reenforce the emotional response into the action taken.
+Beside the form on large screen and on the top on medium screen, motivational quotation will be presented 
+to reenforce the emotional response into the action taken.  
+On small screens only the form is display.
 
 ### **Features to Implement in the Future Versions**
 
-#### Home 
-
 #### The Club
 
-#### Activities
+Add instead of the background image on large screen a video with [Google Earth](https://www.google.com/intl/fr/earth/) 
+to zoom-in the Club location. That would give a wow factor.
 
 #### Gallery
- 
+
 Add responsiveness to the carousel with the number of pictures per slide that changes depending 
 on the device size.  
+Add some short video and images in the gallery.
 
-#### Hiking Tips
+#### Get in touch!
 
-#### Get in touch !
-
-
-
-
-
+Provide a functionable link to the form, or a customised error page when clicking the submit button.
 
 # Technologies Used 
 
+### Programing Languages
 
+This project uses HTML and CSS.
+
+### Frameworks, Libraries and Programs
+
+* [Balsamiq](https://balsamiq.com/wireframes/)  
+For creating wireframes.
+
+* [Bootstrap](https://getbootstrap.com/)  
+With the [compiled CSS, JS and CDN](https://getbootstrap.com/docs/4.6/getting-started/download/)  
+For the [Grid system](https://getbootstrap.com/docs/4.6/layout/overview/) that provides responsive layout.  
+For the various [components](https://getbootstrap.com/docs/4.6/components/alerts/) with built in css.  
+JQuery and JavaScript were provided by cdn for responsive elements. They are built in the components used in Bootstrap.
+
+* [Google Fonts](https://fonts.google.com/)  
+For importing fonts (***Proza Libre*** and ***Cormorant Garmont***) into the style.css file.
+
+* [Fontawesome](https://fontawesome.com/icons?d=gallery)  
+For using icons throughout the website.
+
+*  [TinyPNG](https://tinypng.com/) or [Squoosh](https://squoosh.app/)  
+For resizing all the images.
+
+* [BeFunky](https://www.befunky.com/create/)
+For cropping some of the images.
+
+* [Adobe Color](https://color.adobe.com/create/image)  
+For extracting the color scheme used on the website.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/?url=http://ami.responsivedesign.is/#)  
+For providing a screenshot of the responsiveness of the website across several devices.
+
+* [Git](https://git-scm.com/)  
+For Version control.
+
+* [GitPod](https://www.gitpod.io/)  
+For Integrated Development Environment.
+
+* [GitHub](https://github.com/)  
+For storing the repository.
+
+* [GitHub Pages](https://pages.github.com/)  
+For deploying the website live.
 
 # Testing
 
@@ -219,7 +289,7 @@ using GitPod Command Line Interface (CLI).
 ## Live Deployment
 
 To make this website accessible to the public, Walking Around 
-has been deployed on [GitHub Pages]() as follow :
+has been deployed on [GitHub Pages](https://pages.github.com/) as follow :
 
 1. Log in to my GitHub account.
     * To create an account you need to sign up on [GitHub](https://github.com/).
@@ -227,26 +297,26 @@ has been deployed on [GitHub Pages]() as follow :
     * To create a repository see [Create a repo](https://docs.github.com/en/github/getting-started-with-github/create-a-repo).
 3. Navigate to **Settings** :
 
-![setiings](assets/images/repo-settings.png)
+![setiings](assets/images/markdown-images/repo-settings.png)
 
 4. Scroll down to the **GitHub Pages** section.
 5. Click on the **None** dropdown menu and select the branch to publish : **master**.
 
-![selection of branch to publish](assets/images/branch.png)
+![selection of branch to publish](assets/images/markdown-images/branch.png)
 
 6. Click on **Save**.
 7. The website is now deployed.
 
-The link to the website is found in the **GitHub Pages** section of the reporitory settings.
+The link to the website is found in the **GitHub Pages** section of the repository settings.
 
-![website link](assets/images/published.png)
+![website link](assets/images/markdown-images/published.png)
 
 
 ## Local Deployment
 
 ### Cloning
 
-When a reporitory is created on GitHub, it is located on GitHub website ("remotely"). 
+When a repository is created on GitHub, it is located on GitHub website ("remotely"). 
 You can create a copy of the repository locally on your machine. This 
 process is called : "**Cloning a repository**".  
 When cloning a repository you are actually copying all the data that the repository 
@@ -261,7 +331,7 @@ To clone a repository, take the following steps :
     * using SSH key
     * using GitHub CLI  
 
-![clone options](assets/images/cloning.png)
+![clone options](assets/images/markdown-images/cloning.png)
 
 4. Choose an option and copy the link given.
 5. Change the current working directory to the location where you want the cloned directory.
@@ -269,7 +339,7 @@ To clone a repository, take the following steps :
 >```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```     
 6. Press **Enter** to create your local clone.
 
-For further informations please go to [Cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line).
+For further information please go to [Cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line).
 
 
 ### Using GitPod
@@ -277,24 +347,24 @@ For further informations please go to [Cloning a repository](https://docs.github
 To Clone a repository Using GitPod, take the following steps :
 
 1. Create a GitHub account.
-2. Intall the Gitpod [extention](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki) for Chrome or [Add-on](https://addons.mozilla.org/en-GB/firefox/addon/gitpod/) for Firefox.
+2. Install the GitPod [extension](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki) for Chrome or [Add-on](https://addons.mozilla.org/en-GB/firefox/addon/gitpod/) for Firefox.
 3. Navigate to the corresponding repository.
-4. Click ont the **Gitpod** button on the top right of the files list.
+4. Click ont the **GitPod** button on the top right of the files list.
 5. This will open a workspace on GitPod where you can work on the repository locally.
 
->The very first time that you do this, you need to connect Gitpod and GitHub together.
+>The very first time that you do this, you need to connect GitPod and GitHub together.
 You need to log in with GitHub and launch your workspace (As explain above). And then you need to
-authorize Gitpod to be able to access your GitHub account. You agree to Gitpod's
+authorize GitPod to be able to access your GitHub account. You agree to GitPod's
 terms and conditions, and then create a free account. Then, it will open the
 workspace for you.
-Extrait from : "Creating a GitPod Workspace" on [Code Institute Full Stack Software Developement Programme](https://codeinstitute.net/full-stack-software-development-diploma/), 
+Quote from : "Creating a GitPod Workspace" on [Code Institute Full Stack Software Development Programme](https://codeinstitute.net/full-stack-software-development-diploma/), 
 by Matt Rudge. 
 
 ### Using GitHub Desktop
 
 An other option is available : GitHub Desktop. It consist of cloning a repository from GitHub 
 to GitHub Desktop.  
-For full informations about how to use this option, please visit [GitHub Docs](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop).
+For full information about how to use this option, please visit [GitHub Docs](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-a-repository-from-github-to-github-desktop).
 
 ### Forking
 
@@ -311,101 +381,92 @@ To Fork a repository take the following steps :
 2. Navigate to the corresponding repository.
 3. Identify the ```fork``` button on the top right of the page and click on it.
 
-![forking](assets/images/fork.png)
+![forking](assets/images/markdown-images/fork.png)
 
 4. Now you should find a copy of the repository in ```Your repositories```.
 
 
 # Bugs
-Issue : We Cannot see the toggle icon.
-Solve : The navigation bar require Bootstrap color scheme.
-
-Issue : Position the navigation menu to the right.
-Solve : The parent of the <ul> should have the class="justify-content-end".
-
-Issue : When the navigation menu is toggled and clicked on, the list of links of the menu doesn't appear.
-Solve : JQuery script was missing before the </body>. I was using a Beta version of Bootstrap that didn't include it.
-
-Issue : Whe can see the "Current page." message provided in the span with class="sr-only" that goes with the active link.
-Solve : The "sr-only" class goes with aria-hidden attribute.
-
-Issue : The callout button of the hone page is not aligned with the the copyright text.
-Solve :
-
-Issue : The middle column in activities.html show a gap on very large screens and is not horizontally centered on medium screens.
-Solve : Add ```display: inline``` to the <ul> of the middle column so it behave like a <p> as in the other column. I the added some 
-margin-left to the <li> so the markers display within the column and don't "stick" to the left.   
-
-Issue : The background-image is flickering when scrolling the content.
-solve : 
-
 
 ### Solved
 
+Issue : We Cannot see the toggle icon.  
+Solve : The navigation bar require Bootstrap color scheme.
+
+Issue : Position the navigation menu to the right.  
+Solve : The parent of the unordered list should have the class="justify-content-end".
+
+Issue : When the navigation menu is toggled and clicked on, the list of links of the menu doesn't appear.  
+Solve : JQuery script was missing before the ```/body```. I was using a Beta version of Bootstrap that didn't include it.
+
+Issue : Whe can see the "Current page." message provided in the span with class="sr-only" that goes with the active link.  
+Solve : The "sr-only" class goes with aria-hidden attribute.
+
+Issue : The middle column in activities.html show a gap on very large screens and is not horizontally centered on medium screens.  
+Solve : Add ```display: inline``` to the unordered list of the middle column so it behave like a ```paragraph``` as in the other column. 
+I the added some margin-left to the list so the markers display within the column and don't "stick" to the left.   
 
 ### Unsolved
 
+Issue : The callout button of the hone page is not aligned with the the copyright text.
 
-
+Issue : The background-image is flickering when scrolling the content.
 
 # Credit 
 
-Bootstrap
-Google Fonts
-Fontawesome
-W3schools
-[Slack](code-institute-room.slack.com)
-All the members for their help and support and special thanks to Evret Lynx ...
+### Content :
 
-[Hostinger Tutorials](https://www.hostinger.com/tutorials/how-to-add-favicon-to-website)
+[W3schools](https://www.w3schools.com/)  
+For general database on software development.
+
+[Hostinger Tutorials](https://www.hostinger.com/tutorials/how-to-add-favicon-to-website)  
 Provided the link and explanation on how to install the favicon for the website.
 
-[George Dimitriadis](https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color)
+[George Dimitriadis](https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color)  
 For text-shadow tricks used in css to make text more readable.
 
 [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-vertically-center-text-with-css/)  
 For tips on vertical alignment in CSS.
 
-[USERWAY](https://userway.org/blog/html-required-versus-aria-required)
+[USERWAY](https://userway.org/blog/html-required-versus-aria-required)  
 For explanation on best use of the required attribute.
 
-[Manindra Singh](https://stackoverflow.com/questions/31685234/bootstrap-carousel-slider-4-images-at-once-only-shows-one-image-at-a-time)  
-For Bootstrap Carousel 4 slides at once html code.
+### Social Media links :
 
-All the Code Institute team and special thanks to Anna Greaves, Matt Rudge, ...
-
-
-Social Media :
-[Facebook](https://www.facebook.com/groups/hikingirelandgroup)
-[Instagram](https://www.instagram.com/hikingclubireland/)
+[Facebook](https://www.facebook.com/groups/hikingirelandgroup)  
+[Instagram](https://www.instagram.com/hikingclubireland/)  
 [Pinterest](https://www.pinterest.ie/pin/353321533264651536/)
 
 
-Hiking Tips :
-[Backpack tips](https://www.pinterest.ie/pin/839991767980873766/)
-[First Aid Kit tips](https://www.pinterest.ie/pin/32088216085982970/)
-[Clothing tips](https://www.pinterest.ie/pin/116812184068113516/)
-[Layering tips](https://www.youtube.com/watch?v=nxvJap9lyes&feature=emb_title)
-[Find Your Partner](https://www.pinterest.ie/pin/452400725075206099/)
+### Hiking Tips links :
+
+[Backpack tips](https://www.pinterest.ie/pin/839991767980873766/)  
+[First Aid Kit tips](https://www.pinterest.ie/pin/32088216085982970/)  
+[Clothing tips](https://www.pinterest.ie/pin/116812184068113516/)  
+[Layering tips](https://www.youtube.com/watch?v=nxvJap9lyes&feature=emb_title)  
+[Find Your Partner](https://www.pinterest.ie/pin/452400725075206099/)  
 [Not Alone](https://www.pinterest.ie/pin/47428602314872197/)
 
-Images :
+### Images :
+
 Some of the images used on the website are taken from a Hiking groupe on [Facebook](https://www.facebook.com/groups/hikingirelandgroup) with the permission 
 of the photographers. The rest of them are from myself.
 
 
-Pictures from Ger Penkert:
-[Mohra](assets/images/gallery/Ger-Penkert-lough-mohra.jpg)
-[Cumshingau](assets/images/gallery/Ger-Penkert-Coumshingaun.jpg)
-[Comeragh](assets/images/gallery/Ger-Penkert-comeragh.jpg)
+Pictures from Ger Penkert:  
+[Mohra](assets/images/gallery/Ger-Penkert-lough-mohra.jpg)  
+[Cumshingau](assets/images/gallery/Ger-Penkert-Coumshingaun.jpg)  
+[Comeragh](assets/images/gallery/Ger-Penkert-comeragh.jpg)  
 [Copper Coast](assets/images/gallery/Ger-Penkert-copper-coast.jpg)
 
-Pictures from Catherine Ryan:
+Pictures from Catherine Ryan:  
 [Burren](assets/images/gallery/Catherine-Ryan-burren.jpg)
 
+### Aknowledgements :
 
+All the Code Institute team. "Teacher", Lecturers and tutors.
 
+The [Slack](code-institute-room.slack.com) community and all the members 
+for their help and support.
 
-
-
-All the images have been resized using [TinyPNG](https://tinypng.com/).
+My mentor Allen Thomas Varghese for guiding me through this project.
