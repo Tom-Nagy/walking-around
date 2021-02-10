@@ -183,7 +183,7 @@ footer div {
 
 .home-wrapper {
     height: 100vh;
-    background: #bf9075 url("../images/gallery/brandon-hike.jpg") top center no-repeat;
+    background: #bf9075 url("../images/background/brandon-hike.jpg") top center no-repeat;
     background-size: cover;
 }
 
@@ -253,14 +253,31 @@ for the following css to make text more readable.*/
 /* -------------------------------------------------------------------------------- The Club */
 
 .theclub-wrapper {
-    background-image: #bf9075 url("") no-repeat;
+    margin-top: 0;
+    height: 1500px;
+    background: #bf9075 url("../images/background/bray-coastal-walk.jpg") top right no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (min-width: 768px) {
+    .theclub-wrapper {
+        height: 150vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .theclub-wrapper {
+        height: 100vh;
+        background-position: center;
+    }
 }
 
 .theclub-wrapper .row {
     height: 100vh;
-    padding-top: 128px;
+    padding-top: 161px;
     padding-bottom: 50px;
-    margin: 20px 1rem;
+    margin: 0 1rem;
 }
 
 .theclub-def {
@@ -295,18 +312,42 @@ for the following css to make text more readable.*/
 /* -------------------------------------------------------------------------------- Activities */
 
 .activities-wrapper {
-    background-image: #bf9075 url("") no-repeat;
+    height: 220vh;
+    background: #bf9075 url("../images/background/little-sugarloaf-up.jpg") top center no-repeat;
+    background-size: cover;
 }
+
+@media (min-width: 768px) {
+    .activities-wrapper {
+        height: 150vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .activities-wrapper {
+        height: 100vh;
+    }
+}
+
+
 
 .activities-wrapper .row {
     height: 100vh;
-    padding-top: 128px;
+    padding-top: 161px;
     padding-bottom: 50px;
-    margin-top: 20px;
 }
 
 .activities-sections {
     padding-bottom: 70px;
+}
+
+.activities-sections div ul {
+    display: inline;
+}
+
+.activities-sections div ul li {
+    padding: 3px;
+    margin-left: 33px;
 }
 
 .activities-sections div,
@@ -321,17 +362,82 @@ for the following css to make text more readable.*/
     vertical-align: middle;
 
     font-size: 16px;
-    font-weight: 500;
-}
-
-.activities-sections div {
-    padding-right: 30px;
+    font-weight: 700;
 }
 
 .activities-sections h3 {
+    color: #fafafa;
     text-align: center;
     font-size: 2rem;
     letter-spacing: 6px;
+}
+
+/* -------------------------------------------------------------------------------- Gallery */
+
+.gallery-wrapper {
+    height: 100vh;
+    background: #bf9075 url("../images/background/dublin-bay.jpg") top right no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gallery-title {
+    height: 20vh;
+    padding-top: 160px;
+    padding-bottom: 60px;
+}
+
+.gallery-title h3 {
+    font-family: "Cormorant Garamont", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 750px){
+    .gallery-title h3 {
+        font-size: 14px;    
+    }
+}
+
+.carousel-outer {
+    height: 60vh;
+    margin-bottom: 55px;
+}
+
+.carousel-item img {
+    height: auto;
+}
+
+#gallery {
+    margin-bottom: 55px;
+}
+
+/* Modify the position and style of the carousel's elements */
+.carousel {
+    position: relative;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -60px;
+    margin-bottom: 60px;
+
+}
+
+.carousel-indicators li {
+    height: 0.5rem;
+    width: 0.8rem;
+}
+
+.carousel-controls {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.modal button {
+    background-color: rgb(209, 20, 20);
 }
 
 /* -------------------------------------------------------------------------------- Hiking Tips */
@@ -538,64 +644,8 @@ for the following css to make text more readable.*/
     }
 }
 
-/* -------------------------------------------------------------------------------- Gallery */
 
-.gallery-wrapper {
-    height: 100vh;
-    background: #bf9075 url("../images/gallery/Sorcha-ni-lough-gur.jpg") no-repeat;
-    background-size: cover;
-     
-}
 
-.gallery-title {
-    margin-top: 128px;
-    padding: 60px;
-}
+/* -------------------------------------------------------------------------------- Common style */
 
-@media (max-width: 375px) {
-    .gallery-title {
-        margin-top: 108px;
-    }
-}
-
-.gallery-title h3 {
-    font-family: "Cormorant Garamont", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 500;
-    text-align: center;
-    letter-spacing: 3px;
-}
-
-@media (max-width: 750px){
-    .gallery-title h3 {
-        font-size: 14px;    
-    }
-}
-
-.carousel {
-    position: relative;
-}
-
-.carousel-indicators {
-    position: absolute;
-    bottom: -60px;
-    margin-bottom: 60px;
-
-}
-
-.carousel-indicators li {
-    height: 0.5rem;
-    width: 0.8rem;
-}
-
-.carousel-controls {
-    font-size: 2rem;
-    text-decoration: none;
-}
-
-.modal button {
-    height: 33px;
-    width: 33px;
-    border-radius: 50%;
-    background-color: rgb(209, 20, 20);
-}
+/* --------- Responsive margin top to follow the size of the responsive logo */
