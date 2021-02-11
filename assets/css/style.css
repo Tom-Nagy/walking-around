@@ -183,27 +183,26 @@ footer div {
 
 .home-wrapper {
     height: 100vh;
-    background: #bf9075 url("../images/background/brandon-hike.jpg") top center no-repeat;
+    background: #84a9d9 url("../images/background/brandon-hike.jpg") top center no-repeat;
     background-size: cover;
 }
 
 .home-wrapper .row {
-    height: 50%;
+    height: 30vh;
 }
 
 .home-heading {
-    padding-top: 128px;
+    padding-top: 178px;
 }
 
 .home-heading h1 {
     font-family: "Cormorant Garamont", sans-serif;
-    color: #84a9d9;
-    font-size: 33px;
+    color: #bf9075;
+    font-size: 40px;
     font-weight: 700;
     font-style: italic;
     text-align: center;
-    letter-spacing: 2px;
-    height: 2em;
+    letter-spacing: 4px;
     margin: 0;
 }
 
@@ -222,8 +221,82 @@ for the following css to make text more readable.*/
     0.05em 0.05em black;
 }
 
+@media (max-width: 768px) {
+    .home-heading h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 425px) {
+    .home-heading h1 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 375px) {
+    .home-heading {
+        padding-top: 148px;
+    }
+}
+
+/* Headlines */
+
+.home-headlines {
+    padding-top: 100px;
+}
+
+.home-headlines div {
+    padding: 10px;
+}
+
+.home-headlines p {
+    padding: 16px;
+    border: 1px solid #736640;
+    border-radius: 25px;
+    background-color: #84a9d9cc;
+
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+}
+
+@media (max-width: 1105px) {
+    .home-headlines p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-headlines p {
+        padding: 8px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .home-headlines {
+    padding-top: 40px;
+    }
+
+    .home-headlines p {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .home-headlines p {
+        width: 80%;
+    }
+}
+
+/* Button */
+
 .home-callout {
-    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -249,6 +322,17 @@ for the following css to make text more readable.*/
 .home-callout .btn a:hover {
     color: #198754;
 }
+
+@media (max-width: 576px) {
+    .home-callout .btn a {
+        font-size: 14px;
+    }
+
+    .home-callout {
+        padding-top: 30px;
+    }
+}
+
 
 /* -------------------------------------------------------------------------------- The Club */
 
@@ -314,7 +398,7 @@ for the following css to make text more readable.*/
 
 .activities-wrapper {
     height: 220vh;
-    background: #bf9075 url("../images/background/little-sugarloaf-up.jpg") top center no-repeat;
+    background: #84a9d9 url("../images/background/little-sugarloaf-up.jpg") top center no-repeat;
     background-size: cover;
 }
 
@@ -378,7 +462,7 @@ for the following css to make text more readable.*/
 
 .gallery-wrapper {
     height: 100vh;
-    background: #bf9075 url("../images/background/dublin-bay.jpg") top right no-repeat;
+    background: #84a9d9 url("../images/background/dublin-bay.jpg") top right no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -446,7 +530,7 @@ for the following css to make text more readable.*/
 
 .hikingtips-wrapper {
     height: 2300px;
-    background: #bf9075 url("../images/background/killiney.jpg") center no-repeat;
+    background: #84a9d9 url("../images/background/killiney.jpg") center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -578,7 +662,7 @@ for the following css to make text more readable.*/
 
 .form-wrapper {
     height: 850px;
-    background: #bf9075 url("../images/background/trees.jpg") center no-repeat;
+    background: #84a9d9 url("../images/background/trees.jpg") center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -617,12 +701,10 @@ for the following css to make text more readable.*/
 }
 
 .quotes {
-    
     padding: 16px;
     border: 6px outset #736640;
     border-radius: 16px;
     background-color: #84a9d9cc;
-
     text-align: center;
 }
 
