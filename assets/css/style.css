@@ -1,5 +1,5 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,600;1,700&family=Proza+Libre:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,700;1,600;1,700&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 
 body {
     font-family: "Proza Libre", sans-serif;
@@ -202,7 +202,7 @@ footer div {
     font-weight: 700;
     font-style: italic;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     margin: 0;
 }
 
@@ -339,7 +339,7 @@ for the following css to make text more readable.*/
 .theclub-wrapper {
     margin-top: 0;
     height: 1500px;
-    background: #bf9075 url("../images/background/bray-coastal-walk.jpg") top right no-repeat;
+    background: #84a9d9 url("../images/background/bray-coastal-walk.jpg") top right no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -365,13 +365,36 @@ for the following css to make text more readable.*/
     margin: 0 1rem;
 }
 
-.theclub-def {
+.about-us h3 {
+    font-family: "Cormorant Garamont", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #bf9075;
+    text-align: center;
+}
+
+ /* Credit to George Dimitriadis https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color 
+for the following css to make text more readable.*/
+
+.about-us h3 {
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+}
+
+
+.about-us p {
+    margin-bottom: 50px;
     padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
-    background-color: #84a9d9cc;
-    
-    margin-bottom: 50px;
+    background-color: #84a9d9e6;
 }
 
 .theclub-quotes {
@@ -383,15 +406,33 @@ for the following css to make text more readable.*/
     padding: 16px;
     border: 6px outset #736640;
     border-radius: 16px;
-    background-color: #84a9d9cc;
+    background-color: #84a9d9e6;
 
     text-align: center;
 }
 
-.theclub-def p,
+.about-us p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .theclub-quotes p {
     font-size: 16px;
     font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+    .about-us {
+         padding-bottom: 50px;
+    }
+    
+    .about-us p {
+        height: 360px;
+        font-size: 18px;
+        
+        display: table-cell;
+        vertical-align: middle;
+    }
 }
 
 /* -------------------------------------------------------------------------------- Activities */
