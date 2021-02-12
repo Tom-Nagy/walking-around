@@ -179,6 +179,47 @@ footer div {
     color: #c7530f;
 }
 
+
+/* -------------------------------------------------------------------------------- Common Styles */
+
+/* h3 titles */
+
+.activities-sections h3,
+.tips-titles h3 span {
+    font-family: "Cormorant Garamont", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #bf9075;
+    text-align: center;
+ }
+
+ /* Credit to George Dimitriadis https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color 
+for the following css to make text more readable.*/
+
+.home-heading h1,
+.activities-sections h3,
+.tips-titles h3 span {
+    text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+}
+
+/* Content's Font */
+
+.activities-sections .skills-practice-content,
+.activities-sections p,
+.tips-content {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
 /* -------------------------------------------------------------------------------- Home Page */
 
 .home-wrapper {
@@ -204,21 +245,6 @@ footer div {
     text-align: center;
     letter-spacing: 3px;
     margin: 0;
-}
-
-/* Credit to George Dimitriadis https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color 
-for the following css to make text more readable.*/
-
-.home-heading h1 {
-    text-shadow:
-    0.05em 0 black,
-    0 0.05em black,
-    -0.05em 0 black,
-    0 -0.05em black,
-    -0.05em -0.05em black,
-    -0.05em 0.05em black,
-    0.05em -0.05em black,
-    0.05em 0.05em black;
 }
 
 @media (max-width: 768px) {
@@ -255,7 +281,7 @@ for the following css to make text more readable.*/
     padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
-    background-color: #84a9d9cc;
+    background-color: #84a9d9e6;
 
     font-size: 18px;
     font-weight: 600;
@@ -304,7 +330,7 @@ for the following css to make text more readable.*/
     padding: 0;
     border-width: 4px;
     border-style: outset;
-    background-color: #fafafab3;
+    background-color: #fafafae6;
 }
 
 .home-callout .btn:hover {
@@ -338,14 +364,14 @@ for the following css to make text more readable.*/
 
 .theclub-wrapper {
     margin-top: 0;
-    height: 1500px;
+    
     background: #84a9d9 url("../images/background/bray-coastal-walk.jpg") top right no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 /* Responsive height for the background image to fill up all the available space*/
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .theclub-wrapper {
         height: 150vh;
     }
@@ -356,7 +382,7 @@ for the following css to make text more readable.*/
         height: 100vh;
         background-position: center;
     }
-}
+} */
 
 .theclub-wrapper .row {
     height: 100vh;
@@ -465,38 +491,47 @@ for the following css to make text more readable.*/
 }
 
 .activities-sections {
-    padding-bottom: 70px;
+    padding-bottom: 60px;
 }
 
-.activities-sections div ul {
-    display: inline;
+
+.activities-sections h3 {
+    text-align: center;
 }
 
-.activities-sections div ul li {
-    padding: 3px;
-    margin-left: 33px;
-}
-
-.activities-sections div,
+.activities-sections .skills-practice-content,
 .activities-sections p {
+    margin: 0;
     padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
-    background-color: #84a9d9cc;
-    
-    height: 33vh;
-    display: table-cell;
-    vertical-align: middle;
-
-    font-size: 16px;
-    font-weight: 700;
+    background-color: #84a9d9e6;
 }
 
-.activities-sections h3 {
-    color: #fafafa;
-    text-align: center;
-    font-size: 2rem;
-    letter-spacing: 6px;
+@media (min-width: 758px) {
+    .activities-sections .skills-practice-content,
+    .activities-sections p {
+        min-height: 232px;
+    }
+}
+
+@media (min-width: 992px) {
+    .activities-sections .skills-practice-content,
+    .activities-sections p {
+        height: 282px;
+
+        /* vertical align code snippet taken from "SJ_OWOW" in 
+        https://stackoverflow.com/questions/52378422/how-to-vertically-align-text-within-div-element-css */
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1400px) {
+    .activities-sections .skills-practice-content,
+    .activities-sections p {
+        padding-top: 30px;
+    }
 }
 
 /* -------------------------------------------------------------------------------- Gallery */
@@ -612,22 +647,7 @@ for the following css to make text more readable.*/
     padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
-    background-color: #84a9d9cc;
-    
-    font-size: 16px;
-    font-weight: 500;
- }
-
- @media (min-width: 1200px) {
-     .tips-content {
-        height: 40vh;
-        overflow-y: auto;
-        
-     }
-
-     .tips-sections {
-         padding-top: 220px;
-     }
+    background-color: #84a9d9e6;
  }
 
 .tips-titles {
@@ -639,34 +659,17 @@ for the following css to make text more readable.*/
     text-align: center;
 }
 
- .tips-titles h3 span {
-    font-family: "Cormorant Garamont", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 500;
-    color: #bf9075;
- }
-
- /* Credit to George Dimitriadis https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color 
-for the following css to make text more readable.*/
-
-.tips-titles h3 span {
-    text-shadow:
-    0.05em 0 black,
-    0 0.05em black,
-    -0.05em 0 black,
-    0 -0.05em black,
-    -0.05em -0.05em black,
-    -0.05em 0.05em black,
-    0.05em -0.05em black,
-    0.05em 0.05em black;
-}
-
 /* ---------- Pdf download icon  */
 
 .tips-titles h3 i {
     font-size: 1.5rem;
-    padding-left: 20px;
+    margin-left: 20px;
     color: #717334;
+
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #fafafae6;
 } 
 
 .tips-titles h3 i:hover {
@@ -681,8 +684,11 @@ for the following css to make text more readable.*/
         font-weight: 600;
     }
     .tips-titles h3 i {
-        font-size: 1rem;
-        padding-left: 10px;
+        font-size: 1.2rem;
+        margin-left: 10px;
+
+        height: 1.5rem;
+        width: 1.5rem;
     }
 }
 
@@ -699,7 +705,7 @@ for the following css to make text more readable.*/
     text-align: center;
 }
 
-/* -------------------------------------------------------------------------------- Get in touch! */
+/* -------------------------------------------------------------------------------- Join Us ! */
 
 .form-wrapper {
     height: 850px;
@@ -745,7 +751,7 @@ for the following css to make text more readable.*/
     padding: 16px;
     border: 6px outset #736640;
     border-radius: 16px;
-    background-color: #84a9d9cc;
+    background-color: #84a9d9e6;
     text-align: center;
 }
 
@@ -753,17 +759,25 @@ for the following css to make text more readable.*/
 
 .form {
     padding: 16px;
-    background-color: #c4ddf2cc;
+    background-color: #c4ddf2e6;
     border-radius: 10px;
 }
 
 .form h4 {
-    margin-bottom: 20px;
     font-family: "Cormorant Garamont", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
 
-    line-height: 2.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.form h6 {
+    font-family: "Cormorant Garamont", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+    line-height: 14px;
     text-align: center;
 }
 
@@ -790,17 +804,20 @@ for the following css to make text more readable.*/
     padding: 2px;
     border: black 1px solid;
     border-radius: 10px;
-    background-color: #fafafa80;
+    background-color: #fafafae6;
     display: block;
+    font-size: 12px;
+
 }
 
 .form .btn {
     padding: 6px;
     border-width: 4px;
     border-style: outset;
-    background-color: #fafafab3;
+    background-color: #fafafae6;
     color: black;
-    font-size: 20px;
+    font-family: "Cormorant Garamont", sans-serif;
+    font-size: 16px;
     font-weight: bold;
 
     display: block;
@@ -822,3 +839,4 @@ for the following css to make text more readable.*/
         font-size: 14px;
     }
 }
+
