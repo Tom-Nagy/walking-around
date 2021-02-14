@@ -18,7 +18,7 @@ easy to advanced difficulties.
 
 ## Table of Content : 
 
-* [Project]()
+* [Project](https://github.com/Tom-Nagy/walking-around#Project)
     * [Project Goals](https://github.com/Tom-Nagy/walking-around#Project-Goals)
     * [Developer and Business Goals](https://github.com/Tom-Nagy/walking-around#Developer-and-Business-Goals)
     * [User Goals](https://github.com/Tom-Nagy/walking-around#User-Goals)
@@ -160,7 +160,7 @@ bar become a toggle on small devices. As well the name of the website
 become the title's page name on small devices in order to help identify on which 
 page the user is situated.
 
-**The footer** present a button with the link "Get in touch !" on the 
+**The footer** present a button with the link "Join Us!" on the 
 left that bring the user to the application form.  
 As well, social media logos on the right linked to different websites for 
 additional information on hiking.
@@ -171,10 +171,10 @@ the sensation of open space and immersion into Nature.
 
 #### Home
 
-On the home page there is a heading (Ireland Best Walking Community), praising the Club, across 
-the viewport.  
-Below there is a call to action button (Join Us). This is to trigger 
-users desire to be part of the Club. This button will lead the users to fill up the "Get in touch" form.
+On the home page there is a heading (Ireland Best Walking Community) praising the Club.  
+Below the heading there are three headlines that show users what to expect from the Club. 
+Below there is a call to action button (Learn More). This is to trigger 
+users desire to know more about the Club. This button will lead the users to fill up the "Get in touch" form.
 
 #### The Club
 
@@ -403,8 +403,9 @@ Issue : Whe can see the "Current page." message provided in the span with class=
 Solve : The "sr-only" class goes with aria-hidden attribute.
 
 Issue : The middle column in activities.html show a gap on very large screens and is not horizontally centered on medium screens.  
-Solve : Add ```display: inline``` to the unordered list of the middle column so it behave like a ```paragraph``` as in the other column. 
-I the added some margin-left to the list so the markers display within the column and don't "stick" to the left.   
+Solve : I took off the ```display: table-cell``` and let the Bootstrap class use the available width as it should. Then to fixe the vertical 
+alignment issue brought by taking off the previous display, I used a defined height with ```display: flex``` and ```vertical-align: center``` 
+added to it in a media query. For horizontally centered on medium screen, add bootstrap class```justify-content-center``` to the row.
 
 ### Unsolved
 
@@ -430,6 +431,9 @@ For tips on vertical alignment in CSS.
 
 [USERWAY](https://userway.org/blog/html-required-versus-aria-required)  
 For explanation on best use of the required attribute.
+
+[SJ_OWOW](https://stackoverflow.com/questions/52378422/how-to-vertically-align-text-within-div-element-css)  
+For vertical align code snippet use in css.
 
 ### Social Media links :
 
@@ -461,6 +465,14 @@ Pictures from Ger Penkert:
 
 Pictures from Catherine Ryan:  
 [Burren](assets/images/gallery/Catherine-Ryan-burren.jpg)
+
+Pictures from Pexels:
+[Photo by Ben Maxwell](https://www.pexels.com/@ben-maxwell-479813?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
+[Photo by ROMAN ODINTSOV](https://www.pexels.com/photo/man-in-hat-and-sunglasses-standing-on-hill-against-high-mountain-4555524/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
+[Photo by Humphrey Muleba](https://www.pexels.com/@goodcitizen?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
+[Photo by Renan Lima](https://www.pexels.com/photo/photo-of-man-standing-on-hill-3364025/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+
 
 ### Aknowledgements :
 
