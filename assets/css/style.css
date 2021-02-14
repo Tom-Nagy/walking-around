@@ -370,9 +370,7 @@ for the following css to make text more readable.*/
 
 /* -------------------------------------------------------------------------------- The Club */
 
-.theclub-wrapper {
-    margin-top: 0;
-    
+.theclub-wrapper { 
     background: #84a9d9 url("../images/background/bray-coastal-walk.jpg") top right no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -395,7 +393,6 @@ for the following css to make text more readable.*/
 .theclub-wrapper > .row {
     padding-top: 161px;
     padding-bottom: 50px;
-    margin: 30px 0px 60px 0px;
 }
 
 .about-us p {
@@ -530,7 +527,7 @@ for the following css to make text more readable.*/
 }
 
 .carousel-outer {
-    height: 60vh;
+    height: 100%;
     margin-bottom: 55px;
 }
 
@@ -550,8 +547,7 @@ for the following css to make text more readable.*/
 .carousel-indicators {
     position: absolute;
     bottom: -60px;
-    margin-bottom: 60px;
-
+    background-color: black;
 }
 
 .carousel-indicators li {
