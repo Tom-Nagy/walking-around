@@ -457,22 +457,29 @@ Some of the images used on the website are taken from a Hiking groupe on [Facebo
 of the photographers. The rest of them are from myself.
 
 
-Pictures from Ger Penkert:  
+* Pictures from Ger Penkert:  
 [Mohra](assets/images/gallery/Ger-Penkert-lough-mohra.jpg)  
 [Cumshingau](assets/images/gallery/Ger-Penkert-Coumshingaun.jpg)  
 [Comeragh](assets/images/gallery/Ger-Penkert-comeragh.jpg)  
 [Copper Coast](assets/images/gallery/Ger-Penkert-copper-coast.jpg)
 
-Pictures from Catherine Ryan:  
+* Pictures from Catherine Ryan:  
 [Burren](assets/images/gallery/Catherine-Ryan-burren.jpg)
 
-Pictures from Pexels:
-[Photo by Ben Maxwell](https://www.pexels.com/@ben-maxwell-479813?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
-[Photo by ROMAN ODINTSOV](https://www.pexels.com/photo/man-in-hat-and-sunglasses-standing-on-hill-against-high-mountain-4555524/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
-[Photo by Humphrey Muleba](https://www.pexels.com/@goodcitizen?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
-[Photo by Renan Lima](https://www.pexels.com/photo/photo-of-man-standing-on-hill-3364025/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+* Pictures from Pexels:
+    * For the profile-pictures/  
+    [Photo by ROMAN ODINTSOV](https://www.pexels.com/photo/man-in-hat-and-sunglasses-standing-on-hill-against-high-mountain-4555524/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
+    [Photo by Humphrey Muleba](https://www.pexels.com/@goodcitizen?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
+    [Photo by Renan Lima](https://www.pexels.com/photo/photo-of-man-standing-on-hill-3364025/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
 
-
+    * For the gallery  
+    [Photo by Ben Maxwell](https://www.pexels.com/@ben-maxwell-479813?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
+    [Photo by Josh Hild](https://www.pexels.com/photo/photo-of-woman-sitting-while-pointing-on-world-map-2422483/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+    [Photo by Guduru Ajay bhargav](https://www.pexels.com/@ajaybhargavguduru?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)    
+    [Photo by Karolina](https://www.pexels.com/photo/exploration-and-mountain-climbing-3669288/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+    [Photo by Josh Willink](https://www.pexels.com/photo/shallow-focus-on-blond-haired-woman-in-white-long-sleeve-shirt-carrying-a-baby-on-her-back-701016/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+    [Photo by Kun Fotografi](https://www.pexels.com/photo/man-in-black-backpack-during-golden-hour-1230302/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+    [Photo by Josh Willink](https://www.pexels.com/photo/man-with-two-kids-near-body-of-water-1157398/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 
 ### Aknowledgements :
 
