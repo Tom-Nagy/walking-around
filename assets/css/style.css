@@ -184,6 +184,8 @@ footer div {
 
 /* h3 titles */
 
+.about-us h3,
+.testimonies h3,
 .activities-sections h3,
 .tips-titles h3 span {
     font-family: "Cormorant Garamont", sans-serif;
@@ -197,6 +199,8 @@ footer div {
 for the following css to make text more readable.*/
 
 .home-heading h1,
+.about-us h3,
+.testimonies h3,
 .activities-sections h3,
 .tips-titles h3 span {
     text-shadow:
@@ -212,6 +216,8 @@ for the following css to make text more readable.*/
 
 /* Content's Font */
 
+.about-us p,
+.testimonies p,
 .activities-sections .skills-practice-content,
 .activities-sections p,
 .tips-content {
@@ -219,6 +225,8 @@ for the following css to make text more readable.*/
     font-weight: 500;
     line-height: 25px;
 }
+
+
 
 /* -------------------------------------------------------------------------------- Home Page */
 
@@ -384,81 +392,39 @@ for the following css to make text more readable.*/
     }
 } */
 
-.theclub-wrapper .row {
-    height: 100vh;
+.theclub-wrapper > .row {
     padding-top: 161px;
     padding-bottom: 50px;
-    margin: 0 1rem;
+    margin: 30px 0px 60px 0px;
 }
-
-.about-us h3 {
-    font-family: "Cormorant Garamont", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 500;
-    color: #bf9075;
-    text-align: center;
-}
-
- /* Credit to George Dimitriadis https://stackoverflow.com/questions/23968961/css-how-can-i-make-a-font-readable-over-any-color 
-for the following css to make text more readable.*/
-
-.about-us h3 {
-    text-shadow:
-    0.05em 0 black,
-    0 0.05em black,
-    -0.05em 0 black,
-    0 -0.05em black,
-    -0.05em -0.05em black,
-    -0.05em 0.05em black,
-    0.05em -0.05em black,
-    0.05em 0.05em black;
-}
-
 
 .about-us p {
     margin-bottom: 50px;
-    padding: 16px;
+    padding: 32px;
     border: 1px solid #736640;
     border-radius: 25px;
     background-color: #84a9d9e6;
 }
 
-.theclub-quotes {
-    padding-top: 30px;
-    padding-bottom: 50px;
+.testimonies {
+    padding: 0;
 }
 
-.theclub-quotes p {
-    padding: 16px;
-    border: 6px outset #736640;
+.testimony-sections {
+    margin: 16px 0;
+}
+
+.testimony-sections img {
+    padding: 3px;
+}
+
+.testimony-sections p {
+    margin: 0;
+    padding: 12px;
+    font-size: 14px;
+    border: 3px outset #736640;
     border-radius: 16px;
     background-color: #84a9d9e6;
-
-    text-align: center;
-}
-
-.about-us p {
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.theclub-quotes p {
-    font-size: 16px;
-    font-weight: 500;
-}
-
-@media (min-width: 1024px) {
-    .about-us {
-         padding-bottom: 50px;
-    }
-    
-    .about-us p {
-        height: 360px;
-        font-size: 18px;
-        
-        display: table-cell;
-        vertical-align: middle;
-    }
 }
 
 /* -------------------------------------------------------------------------------- Activities */
