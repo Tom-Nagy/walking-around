@@ -216,6 +216,12 @@ for the following css to make text more readable.*/
     0.05em 0.05em black;
 }
 
+.testimonies h3,
+.about-us h3,
+.activities-sections h3 {
+    background-color: #fafafa80;
+}
+
 /* Content's Font */
 
 .about-us p,
@@ -229,7 +235,10 @@ for the following css to make text more readable.*/
 }
 
 .home-headlines p,
-.about-us p {
+.about-us p,
+.activities-sections .skills-practice-content,
+.activities-sections p {
+    padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
     background-color: #84a9d9e6;
@@ -264,7 +273,6 @@ for the following css to make text more readable.*/
     font-size: 40px;
     font-weight: 700;
     font-style: italic;
-    
     margin: 0;
 }
 
@@ -375,7 +383,8 @@ for the following css to make text more readable.*/
 
 /* -------------------------------------------------------------------------------- The Club */
 
-/* Photo by Ben Maxwell from Prexels (https://www.pexels.com/@ben-maxwell-479813?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) */
+/* Photo by Ben Maxwell from Prexels 
+(https://www.pexels.com/@ben-maxwell-479813?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) */
 .theclub-wrapper { 
     background: #84a9d9 url("../images/background/club-hike.jpg") center no-repeat;
     background-size: cover;
@@ -385,11 +394,6 @@ for the following css to make text more readable.*/
 .theclub-wrapper > .row {
     padding-top: 161px;
     padding-bottom: 50px;
-}
-
-.testimonies h3,
-.about-us h3 {
-    background-color: #fafafa80;
 }
 
 .about-us {
@@ -417,29 +421,28 @@ for the following css to make text more readable.*/
 
 /* -------------------------------------------------------------------------------- Activities */
 
+/* Photo by Baihaki Hine from Pexels 
+(https://www.pexels.com/photo/hiker-resting-near-fire-and-tent-during-travelling-4314203/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)*/
 .activities-wrapper {
-    height: 220vh;
-    background: #84a9d9 url("../images/background/little-sugarloaf-up.jpg") top center no-repeat;
+    height: auto;
+    background: #84a9d9 url("../images/background/camping.jpg") center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
-/* Responsive height for the background image to fill up all the available space*/
-@media (min-width: 768px) {
-    .activities-wrapper {
-        height: 150vh;
-    }
-}
+/* Responsive height for the background image to fill up all the available space on bigger screens*/
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
     .activities-wrapper {
         height: 100vh;
     }
+
+    .activities-wrapper .row {
+    height: 100%;
+    }
 }
 
-
-
 .activities-wrapper .row {
-    height: 100vh;
     padding-top: 161px;
     padding-bottom: 50px;
 }
@@ -448,20 +451,11 @@ for the following css to make text more readable.*/
     padding-bottom: 60px;
 }
 
-
-.activities-sections h3 {
-    text-align: center;
-}
-
 .activities-sections .skills-practice-content,
 .activities-sections p {
     margin: 0;
-    padding: 16px;
-    border: 1px solid #736640;
-    border-radius: 25px;
-    background-color: #84a9d9e6;
 }
-
+ 
 @media (min-width: 758px) {
     .activities-sections .skills-practice-content,
     .activities-sections p {
@@ -486,7 +480,7 @@ for the following css to make text more readable.*/
     .activities-sections p {
         padding-top: 30px;
     }
-}
+} 
 
 /* -------------------------------------------------------------------------------- Gallery */
 
