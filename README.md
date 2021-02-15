@@ -473,17 +473,20 @@ of the photographers. The rest of them are from myself.
     [Photo by Renan Lima](https://www.pexels.com/photo/photo-of-man-standing-on-hill-3364025/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
 
     * For the gallery  
-    [Photo by Ben Maxwell](https://www.pexels.com/@ben-maxwell-479813?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
     [Photo by Josh Hild](https://www.pexels.com/photo/photo-of-woman-sitting-while-pointing-on-world-map-2422483/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
     [Photo by Guduru Ajay bhargav](https://www.pexels.com/@ajaybhargavguduru?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)    
-    [Photo by Karolina](https://www.pexels.com/photo/exploration-and-mountain-climbing-3669288/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
     [Photo by Josh Willink](https://www.pexels.com/photo/shallow-focus-on-blond-haired-woman-in-white-long-sleeve-shirt-carrying-a-baby-on-her-back-701016/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
     [Photo by Kun Fotografi](https://www.pexels.com/photo/man-in-black-backpack-during-golden-hour-1230302/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
     [Photo by Josh Willink](https://www.pexels.com/photo/man-with-two-kids-near-body-of-water-1157398/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 
+    * For background image
+    [Photo by Ben Maxwell](https://www.pexels.com/@ben-maxwell-479813?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
+    [Photo by Baihaki Hine](https://www.pexels.com/photo/hiker-resting-near-fire-and-tent-during-travelling-4314203/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+    [Photo by Karolina](https://www.pexels.com/photo/exploration-and-mountain-climbing-3669288/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
 ### Aknowledgements :
 
-All the Code Institute team. "Teacher", Lecturers and tutors.
+All the Code Institute team. "Teacher", Lecturers and Tutors.
 
 The [Slack](code-institute-room.slack.com) community and all the members 
 for their help and support.
