@@ -189,7 +189,7 @@ footer div {
 .testimonies h3,
 .activities-sections h3,
 .gallery-title h3,
-.tips-titles h3 span {
+.tips-titles h3 {
     font-family: "Cormorant Garamont", sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
@@ -206,7 +206,7 @@ for the following css to make text more readable.*/
 .testimonies h3,
 .activities-sections h3,
 .gallery-title h3,
-.tips-titles h3 span {
+.tips-titles h3 {
     text-shadow:
     0.05em 0 black,
     0 0.05em black,
@@ -220,7 +220,8 @@ for the following css to make text more readable.*/
 
 .testimonies h3,
 .about-us h3,
-.activities-sections h3 {
+.activities-sections h3,
+.tips-titles h3 {
     background-color: #fafafa80;
 }
 
@@ -239,7 +240,8 @@ for the following css to make text more readable.*/
 .home-headlines p,
 .about-us p,
 .activities-sections .skills-practice-content,
-.activities-sections p {
+.activities-sections p,
+.tips-content {
     padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
@@ -540,72 +542,37 @@ for the following css to make text more readable.*/
 
 /* -------------------------------------------------------------------------------- Hiking Tips */
 
+/* Photo by Karolina from Pexels 
+(https://www.pexels.com/photo/exploration-and-mountain-climbing-3669288/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) */
 .hikingtips-wrapper {
-    height: 2300px;
-    background: #84a9d9 url("../images/background/killiney.jpg") center no-repeat;
+    background: #84a9d9 url("../images/background/hikers-lake.jpg") bottom right no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 /* Responsive height for the background image to fill up all the available space*/
-@media (min-width: 768px) {
-    .hikingtips-wrapper {
-        height: 1600px;
-    }
-}
 
-@media (min-width: 992px) {
+@media (min-width: 1440px) {
     .hikingtips-wrapper {
-        height: 1400px;
+        height: 100vh;
     }
-}
-
-@media (min-width: 1200px) {
-    .hikingtips-wrapper {
-        height: 110vh;
-    }
-}
+} 
 
 .tips-outer-row {
     padding-top: 148px;
     
 }
 
-.hikingtips-wrapper .row {
-    margin: 0;
-}
-
  .tips-sections {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
  }
-
- .tips-content {
-    padding: 16px;
-    border: 1px solid #736640;
-    border-radius: 25px;
-    background-color: #84a9d9e6;
- }
-
-.tips-titles {
-    padding: 0;
-    
-}
-
-.tips-titles h3 {
-    text-align: center;
-}
 
 /* ---------- Pdf download icon  */
 
 .tips-titles h3 i {
-    font-size: 1.5rem;
-    margin-left: 20px;
-    color: #717334;
-
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
-    background-color: #fafafae6;
+    padding: 6px;
+    font-size: 20px;
+    color: #bf9075;
 } 
 
 .tips-titles h3 i:hover {
@@ -615,16 +582,12 @@ for the following css to make text more readable.*/
 /* ---------- Responsive title and download icon */
 
 @media (max-width: 520px) {
-    .tips-titles h3 span {
-        font-size: 1.2rem;
+    .tips-titles h3 {
+        font-size: 1rem;
         font-weight: 600;
     }
     .tips-titles h3 i {
-        font-size: 1.2rem;
-        margin-left: 10px;
-
-        height: 1.5rem;
-        width: 1.5rem;
+        font-size: 12px;
     }
 }
 
