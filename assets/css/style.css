@@ -182,6 +182,23 @@ footer div {
 
 /* -------------------------------------------------------------------------------- Common Styles */
 
+/* Overlay */
+
+/* Code snippet from coder coder! 
+(https://coder-coder.com/background-image-opacity/#:~:text=There's%20no%20CSS%20property%20that,for%20the%20background%2Dimage%20property.) */
+.theclub-wrapper::before,
+.activities-wrapper::before,
+.hikingtips-wrapper::before,
+.gallery-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #32323280;
+}
+
 /* h3 titles */
 
 .home-heading h1,
@@ -218,13 +235,6 @@ for the following css to make text more readable.*/
     0.05em 0.05em black;
 }
 
-.testimonies h3,
-.about-us h3,
-.activities-sections h3,
-.tips-titles h3 {
-    background-color: #fafafa80;
-}
-
 /* Content's Font */
 
 .about-us p,
@@ -237,15 +247,18 @@ for the following css to make text more readable.*/
     line-height: 25px;
 }
 
+/* Content's Style */
+
 .home-headlines p,
 .about-us p,
 .activities-sections .skills-practice-content,
 .activities-sections p,
-.tips-content {
+.tips-content,
+.form {
     padding: 16px;
     border: 1px solid #736640;
     border-radius: 25px;
-    background-color: #84a9d9e6;
+    background-color: #c4ddf2d9;
 }
 
 .testimony-sections p,
@@ -263,10 +276,12 @@ for the following css to make text more readable.*/
     height: 100vh;
     background: #84a9d9 url("../images/background/brandon-hike.jpg") top center no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .home-wrapper .row {
     height: 30vh;
+    position: relative;
 }
 
 .home-heading {
@@ -393,11 +408,13 @@ for the following css to make text more readable.*/
     background: #84a9d9 url("../images/background/club-hike.jpg") center no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 }
 
 .theclub-wrapper > .row {
     padding-top: 161px;
     padding-bottom: 50px;
+    position: relative;
 }
 
 .about-us {
@@ -432,6 +449,7 @@ for the following css to make text more readable.*/
     background: #84a9d9 url("../images/background/camping.jpg") center no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 }
 
 /* Responsive height for the background image to fill up all the available space on bigger screens*/
@@ -449,6 +467,7 @@ for the following css to make text more readable.*/
 .activities-wrapper .row {
     padding-top: 161px;
     padding-bottom: 50px;
+    position: relative;
 }
 
 .activities-sections {
@@ -493,6 +512,11 @@ for the following css to make text more readable.*/
     background: #84a9d9 url("../images/background/dublin-bay.jpg") center no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
+}
+
+.gallery-wrapper .row {
+    position: relative;
 }
 
 .gallery-title {
@@ -548,6 +572,7 @@ for the following css to make text more readable.*/
     background: #84a9d9 url("../images/background/hikers-lake.jpg") bottom right no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
 }
 
 /* Responsive height for the background image to fill up all the available space*/
@@ -560,7 +585,7 @@ for the following css to make text more readable.*/
 
 .tips-outer-row {
     padding-top: 148px;
-    
+    position: relative;
 }
 
  .tips-sections {
@@ -586,9 +611,9 @@ for the following css to make text more readable.*/
         font-size: 1rem;
         font-weight: 600;
     }
-    /* .tips-titles h3 i {
-        font-size: 12px;
-    } */
+    .tips-titles h3 i {
+        font-size: 14px;
+    }
 }
 
 /* ---------- Extra tips links */
@@ -638,12 +663,6 @@ for the following css to make text more readable.*/
 }
 
 /* ---------- Form */
-
-.form {
-    padding: 16px;
-    background-color: #c4ddf2e6;
-    border-radius: 10px;
-}
 
 .form h4 {
     font-family: "Cormorant Garamont", sans-serif;
