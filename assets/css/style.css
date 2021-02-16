@@ -17,8 +17,6 @@ body {
 /* ---------- Logo */
 
 .logo img {
-    height: 90px;
-    width: 90px;
     border: 1.5px solid #bf9075;
     border-radius: 50%;
 }
@@ -35,12 +33,7 @@ body {
     }
 }
 
-@media (max-width: 375px) {
-    .logo img {
-        height: 70px;
-        width: 70px;
-    }
-
+@media (max-width: 290px) {
     .logo span {
         font-size: 16px;
     }
@@ -301,7 +294,7 @@ for the following css to make text more readable.*/
 
 @media (max-width: 425px) {
     .home-heading h1 {
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 400;
     }
 }
@@ -527,7 +520,7 @@ for the following css to make text more readable.*/
 /* Responsive title size */
 @media (max-width: 750px){
     .gallery-title h3 {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
