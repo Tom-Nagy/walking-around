@@ -586,9 +586,9 @@ for the following css to make text more readable.*/
         font-size: 1rem;
         font-weight: 600;
     }
-    .tips-titles h3 i {
+    /* .tips-titles h3 i {
         font-size: 12px;
-    }
+    } */
 }
 
 /* ---------- Extra tips links */
@@ -607,33 +607,20 @@ for the following css to make text more readable.*/
 /* -------------------------------------------------------------------------------- Join Us ! */
 
 .form-wrapper {
-    height: 850px;
     background: #84a9d9 url("../images/background/trees.jpg") center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
 /* Responsive height for the background image to fill up all the available space*/
-@media (min-width: 768px) {
-    .form-wrapper {
-        height: 1050px;
-    }
-}
 
-@media (min-width: 992px) {
+@media (min-height: 840px) {
     .form-wrapper {
-        height: 900px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .form-wrapper {
-        height: 110vh;
+        height: 100vh;
     }
 }
 
 .form-wrapper .row {
-    height: 100vh;
     padding-top: 128px;
     padding-bottom: 50px;
     margin-left: 0.5rem;
