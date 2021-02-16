@@ -193,7 +193,7 @@ footer div {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #323232bf;
+    background-color: #b8acabcc;
 }
 
 /* h3 titles */
@@ -599,14 +599,6 @@ for the following css to make text more readable.*/
 
 .tips-titles h3 i:hover {
     color: #c7530f;
-}
-
-/* ---------- Responsive title and download icon */
-
-@media (max-width: 520px) {
-    .tips-titles h3 {
-        font-size: 1.2rem;
-    }
 }
 
 /* ---------- Extra tips links */
