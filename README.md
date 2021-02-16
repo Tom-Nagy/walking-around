@@ -433,7 +433,10 @@ For tips on vertical alignment in CSS.
 For explanation on best use of the required attribute.
 
 [SJ_OWOW](https://stackoverflow.com/questions/52378422/how-to-vertically-align-text-within-div-element-css)  
-For vertical align code snippet use in css.
+For vertical align code snippet used in css.
+
+[coder coder!](https://coder-coder.com/background-image-opacity/#:~:text=There's%20no%20CSS%20property%20that,for%20the%20background%2Dimage%20property.)
+For explanation and code snippet on overlay on background image used in css. 
 
 ### Social Media links :
 
