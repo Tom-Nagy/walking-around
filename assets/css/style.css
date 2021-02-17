@@ -75,46 +75,25 @@ footer div {
 
 /* ---------- Button */
 
-.btn {
-    padding: 0;
-}
-
 .btn-outline-warning {
-    background-color: #c7530f;
-    border-color: black;
-}
-
-.btn-outline-warning:active {
+    padding: 6px 15px 5px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fafafa;
     background-color: #c7530f;
     border-color: black;
 }
 
 .btn-outline-warning:hover {
+    color: black;
     background-color: #fafafa;
-    border: 2px solid;
-    border-color: #c7530f;
-}
-
-.getintouch a {
-    padding: 6px 15px 5px 15px;
-    color: #fafafa;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.getintouch a:active {
-    color: black;
-}
-
-.getintouch a:hover {
-    color: black;
+    border: 2px solid #c7530f;
 }
 
 /*Responsive Button to fit on one line on very small screens.  */
 
 @media (max-width: 380px) {
-    .getintouch a {
+    .join-us {
         padding-left: 6px;
         padding-right: 6px;
     }
@@ -355,30 +334,21 @@ for the following css to make text more readable.*/
 }
 
 .home-callout .btn {
-    padding: 0;
-    border-width: 4px;
-    border-style: outset;
+    padding: 6px 14px 7px 14px;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    border: 4px outset #198754;
     background-color: #fafafae6;
 }
 
 .home-callout .btn:hover {
-    background-color: #fafafa;
-}
-
-.home-callout .btn a {
-    font-size: 26px;
-    font-weight: bold;
-    color: black;
-    text-decoration: none;
-    padding: 6px 14px 7px 14px;
-}
-
-.home-callout .btn a:hover {
-    color: #198754;
+    color: #fafafae6;
+    background-color: #198754;
 }
 
 @media (max-width: 576px) {
-    .home-callout .btn a {
+    .home-callout .btn {
         font-size: 14px;
     }
 }
