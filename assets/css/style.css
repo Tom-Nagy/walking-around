@@ -79,14 +79,14 @@ footer div {
     padding: 6px 15px 5px 15px;
     font-size: 14px;
     font-weight: bold;
-    color: #fafafa;
+    color: black;
     background-color: #c7530f;
-    border-color: black;
+    border-color: #fafafa;
 }
 
 .btn-outline-warning:hover {
-    color: black;
-    background-color: #fafafa;
+    color: #fafafa;
+    background-color: black;
     border: 2px solid #c7530f;
 }
 
