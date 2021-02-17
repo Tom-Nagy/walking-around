@@ -458,8 +458,22 @@ for the following css to make text more readable.*/
         height: 282px;
 
         /* vertical align code snippet taken from "SJ_OWOW" in
-        https://stackoverflow.com/questions/52378422/how-to-vertically-align-text-within-div-element-css */
+        https://stackoverflow.com/questions/52378422/how-to-vertically-align-text-within-div-element-css 
         display: flex;
+        align-items: center;*/
+
+        /*
+        * Prefixed by https://autoprefixer.github.io
+        * PostCSS: v7.0.29,
+        * Autoprefixer: v9.7.6
+        * Browsers: last 4 version
+        */
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
 }
