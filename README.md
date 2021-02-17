@@ -83,10 +83,11 @@ would have as well an interest in outdoor activities, sport, healthy living and 
 
 #### This website is the best way to answer their needs because :
 
-* It provides a form for people to apply for joining the club.
+* It provides a form for people to apply for joining the Club.
 * It provides useful tips for hikers.
 * It gives inspiration and motivation for outside activities through content and pictures.
-* It provides a meeting Schedule.
+* It provides meeting information.
+* It gives information about the Club activities.
 
 ### **User Stories**
 
@@ -166,35 +167,32 @@ As well, social media logos on the right linked to different websites for
 additional information on hiking.
 The "copyright" (For educational use) is in the middle with responsive text to fit on small devices. 
 
-All pages feature an hero image, taking all the viewport, bringing 
+All pages feature an image, taking all the viewport. Its purpose is bringing 
 the sensation of open space and immersion into Nature.
 
 #### Home
 
 On the home page there is a heading (Ireland Best Walking Community) praising the Club.  
 Below the heading there are three headlines that show users what to expect from the Club. 
-Below there is a call to action button (Learn More). This is to trigger 
-users desire to know more about the Club. This button will lead the users to fill up the "Get in touch" form.
+Below there is a call to action button (About Us). This is to trigger 
+users desire to know more about the Club. This button will lead the users to The Club page.
 
 #### The Club
 
-The Club content is display in three columns.  
-From left to right or top to bottom on smaller devices: its goals, its location and motivational quotes. It Features 
-a picture from [Google Earth](https://www.google.com/intl/fr/earth/) to locate the club in Ireland.   
-On medium and smaller devices the location is not display.  
-Arrows pointing down and linked to the following content will invite 
-users to scroll down or click and continue exploring the website.
+The Club content is display in two columns, one below the other.  
+The first is the about section of the Club and give explanation about the club.  
+The second is display some testimonies from club's members.
 
 #### Activities
 
 The Activities are display in three columns.  
-From left to right or top to bottom on smaller devices: about the community, the activities, meetings. Each column as an icon to represent 
-and identify the content that is display.
+From left to right or top to bottom on smaller devices: about the community, the activities, meetings.
 
 #### Gallery
 
 The Gallery present pictures taken during hikes. It features the great Irish landscape and trails.  
-It is presented as a carousel and display a modal when the image is clicked on to focus on the image and see the images titles and credits.
+It is presented as a carousel and display a modal when the image is clicked on to focus on the image and see the images titles and credits. The 
+carousel display one image per slide on small screens and two images per slide on medium and bigger screens.
 
 #### Hiking Tips
 
@@ -202,13 +200,13 @@ On this page are presented three major hiking tips. They are available to downlo
 icon beside the tip's tile. 
 Those tips are presented in three columns next to each other on large and medium devices and below each other 
 on small devices.  
-With each tip two links are provided for extra information on the subject.
+With each tip two external links are provided for extra information on the subject.
 
 #### Get in touch !
 
 This page features a form to fill up in order to apply for joining 
 the Club. It is presented on the middle of the screen. 
-Beside the form on large screen and on the top on medium screen, motivational quotation will be presented 
+Beside the form on large screen and on the top on medium screen, motivational quotes will be presented 
 to reenforce the emotional response into the action taken.  
 On small screens only the form is display.
 
@@ -252,7 +250,7 @@ For importing fonts (***Proza Libre*** and ***Cormorant Garmont***) into the sty
 * [Fontawesome](https://fontawesome.com/icons?d=gallery)  
 For using icons throughout the website.
 
-*  [TinyPNG](https://tinypng.com/) or [Squoosh](https://squoosh.app/)  
+* [TinyPNG](https://tinypng.com/) or [Squoosh](https://squoosh.app/)  
 For resizing all the images.
 
 * [BeFunky](https://www.befunky.com/create/)
@@ -263,6 +261,8 @@ For extracting the color scheme used on the website.
 
 * [Am I Responsive?](http://ami.responsivedesign.is/?url=http://ami.responsivedesign.is/#)  
 For providing a screenshot of the responsiveness of the website across several devices.
+
+* [Autoprefixer CSS online](https://autoprefixer.github.io/)
 
 * [Git](https://git-scm.com/)  
 For Version control.
@@ -275,10 +275,6 @@ For storing the repository.
 
 * [GitHub Pages](https://pages.github.com/)  
 For deploying the website live.
-
-# Testing
-
-
 
 # Deployment
 
@@ -385,13 +381,16 @@ To Fork a repository take the following steps :
 
 4. Now you should find a copy of the repository in ```Your repositories```.
 
+# Testing
+
+Testing information are published in a separate file : [TESTING.md](TESTING.md)
 
 # Bugs
 
 ### Solved
 
 Issue : We Cannot see the toggle icon.  
-Solve : The navigation bar require Bootstrap color scheme.
+Solve : The navigation bar requires a Bootstrap color scheme class.
 
 Issue : Position the navigation menu to the right.  
 Solve : The parent of the unordered list should have the class="justify-content-end".
@@ -399,19 +398,27 @@ Solve : The parent of the unordered list should have the class="justify-content-
 Issue : When the navigation menu is toggled and clicked on, the list of links of the menu doesn't appear.  
 Solve : JQuery script was missing before the ```/body```. I was using a Beta version of Bootstrap that didn't include it.
 
-Issue : Whe can see the "Current page." message provided in the span with class="sr-only" that goes with the active link.  
-Solve : The "sr-only" class goes with aria-hidden attribute.
+Issue : Whe can see the "Current page" message provided in the span with class="sr-only" that goes with the active link.  
+Solve : The span with ```class= sr-only``` works when the ```aria-hidden``` attribute is given to the link or image you want to comment.
 
 Issue : The middle column in activities.html show a gap on very large screens and is not horizontally centered on medium screens.  
 Solve : I took off the ```display: table-cell``` and let the Bootstrap class use the available width as it should. Then to fixe the vertical 
 alignment issue brought by taking off the previous display, I used a defined height with ```display: flex``` and ```vertical-align: center``` 
 added to it in a media query. For horizontally centered on medium screen, add bootstrap class```justify-content-center``` to the row.
 
+Issue : The background images are not filling all the viewport.  
+Solve : Using Bootstrap grid and container; if the content of the page is bigger than 100vh, then it is not necessary (and not recommended) to 
+provide height for the containers. If the content is smaller than 100vh, then providing a height of 100vh will fix the covering issue. For 
+responsiveness ```height: auto``` can on the wrapper can be coupled with taylor media query with ```height: 100vh```.
+
 ### Unsolved
 
-Issue : The callout button of the hone page is not aligned with the the copyright text.
+Issue : The callout button of the home page is not aligned with the the copyright text.
 
 Issue : The background-image is flickering when scrolling the content.
+
+Issue : The background-attachment is set to fixed, but the content and the background image are scrolling together on "real phones" but it respond 
+as expected with the google DevTools.
 
 # Credit 
 
@@ -489,9 +496,8 @@ of the photographers. The rest of them are from myself.
 
 ### Aknowledgements :
 
-All the Code Institute team. "Teacher", Lecturers and Tutors.
+Special thanks to all the Code Institute team ("Teacher", Lecturers and Tutors) that are making me more knowledgeable and are making this happen.
 
-The [Slack](code-institute-room.slack.com) community and all the members 
-for their help and support.
+Hudge thank you to the [Slack](code-institute-room.slack.com) community, its all the members and all the leads and tutors for their help and support.
 
-My mentor Allen Thomas Varghese for guiding me through this project.
+Thanks to my mentor Allen Thomas Varghese for guiding me through this project.
