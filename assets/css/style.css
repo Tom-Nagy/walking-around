@@ -50,16 +50,10 @@ body {
     color: #c7530f;
 }
 
-.navbar-light .navbar-nav .active a {
+.navbar-light .navbar-nav .active-page a {
     color: #c7530f;
 
 }
-
-/* .navbar-light .navbar-nav .nav-link {
-    text-align: right;
-    background-color: #bf9075;
-    color: #fafafa;
-} */
 
 /* ------------------------------------------------------ Footer */
 
@@ -162,7 +156,7 @@ footer div {
     color: #c7530f;
 }
 
-@media (max-width: 280px) {
+@media (max-width: 320px) {
     .footer-containers .social-links,
     #copyright, 
     .getintouch a {
@@ -442,9 +436,19 @@ for the following css to make text more readable.*/
     position: relative;
 }
 
-/* Responsive height for the background image to fill up all the available space on bigger screens*/
+/* Responsive height for the background image to fill up all the available space on large screens*/
 
 @media (min-width: 1024px) {
+    .activities-wrapper {
+        height: 100vh;
+    }
+
+    .activities-wrapper .row {
+    height: 100%;
+    }
+}
+
+@media (min-height: 900px) {
     .activities-wrapper {
         height: 100vh;
     }
@@ -468,6 +472,8 @@ for the following css to make text more readable.*/
 .activities-sections p {
     margin: 0;
 }
+
+/* Responsive layout for better design */
 
 @media (min-width: 758px) {
     .activities-sections .skills-practice-content,
@@ -651,7 +657,7 @@ for the following css to make text more readable.*/
     text-align: center;
 }
 
-.form h6 {
+.form p {
     font-family: "Cormorant Garamont", sans-serif;
     font-size: 14px;
     font-weight: 500;
