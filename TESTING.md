@@ -120,16 +120,6 @@ The folling tests have been exectuted severals times at different viewport break
     * Try to submit the form given incorrect input for :
         * Email and check if the form is valid and that an error message appear.
         * Phone and check if the form is valid and that an error message appear.
-        
-
-### User Goals
-
-* Learn about the Club :
-  * activities.
-  * Spirit and Goals.
-* Learn about hiking.
-* See pictures of the walks.
-* Submit an application to join the Club.
 
 ## User Stories Testing from UX section of the README.md
 
