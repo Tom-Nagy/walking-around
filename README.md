@@ -228,6 +228,11 @@ Add some short video and images in the gallery.
 
 Provide a functionable link to the form, or a customised error page when clicking the submit button.
 
+#### Additional page
+
+Add a member only page where content about the club is accessible to members only. It would work as a blog and 
+display next hike; scheduled activities and meeting and a media section with photos and videos.
+
 # Technologies Used 
 
 ### Programing Languages
