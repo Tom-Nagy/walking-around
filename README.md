@@ -495,9 +495,9 @@ of the photographers. The rest of them are from myself.
     [Photo by Kun Fotografi](https://www.pexels.com/photo/man-in-black-backpack-during-golden-hour-1230302/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
     [Photo by Josh Willink](https://www.pexels.com/photo/man-with-two-kids-near-body-of-water-1157398/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 
-    * For background image
+    * For background image  
     [Photo by Ben Maxwell](https://www.pexels.com/@ben-maxwell-479813?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
-    [Photo by Baihaki Hine](https://www.pexels.com/photo/hiker-resting-near-fire-and-tent-during-travelling-4314203/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+    [Photo by Baihaki Hine](https://www.pexels.com/photo/hiker-resting-near-fire-and-tent-during-travelling-4314203/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)  
     [Photo by Karolina](https://www.pexels.com/photo/exploration-and-mountain-climbing-3669288/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 
 ### Aknowledgements :
