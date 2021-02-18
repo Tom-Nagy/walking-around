@@ -1,13 +1,13 @@
 # **Walking Around**
 
-![mockup](assets/images/markdown-images/ami-responsive-home.png)
+![mockup](assets/images/README-images/ami-responsive-home.png)
 
 Check out the other mockup:
-* [The club](assets/images/markdown-images/ami-responsive-theclub.png)
-* [Activities](assets/images/markdown-images/ami-responsive-activities.png)
-* [Gallery](assets/images/markdown-images/ami-responsive-gallery.png)
-* [Hiking Tips](assets/images/markdown-images/ami-responsive-hikingtips.png)
-* [Get in touch!](assets/images/markdown-images/ami-responsive-getintouch.png)
+* [The club](assets/images/README-images/ami-responsive-theclub.png)
+* [Activities](assets/images/README-images/ami-responsive-activities.png)
+* [Gallery](assets/images/README-images/ami-responsive-gallery.png)
+* [Hiking Tips](assets/images/README-images/ami-responsive-hikingtips.png)
+* [Get in touch!](assets/images/README-images/ami-responsive-getintouch.png)
 
 #### Visit the live Website by clicking **[here](https://tom-nagy.github.io/walking-around/)**.
 
@@ -100,6 +100,7 @@ without the need of looking for it.
 6. As a returning user, I want to see when and where are the Club's meetings.
 7. As a returning user, I want to check out the different social media link for 
 inspiration and ideas.
+8. As a returning user, I want to get information about hiking.
 
 ### **Design Choices**
 
@@ -121,10 +122,10 @@ the same color scheme as the website.
 
 #### Colors
 
-The [color scheme](assets/images/markdown-images/colors.png) of the website has been extracted from a picture using [Adobe Color](https://color.adobe.com/create/image) 
+The [color scheme](assets/images/README-images/colors.png) of the website has been extracted from a picture using [Adobe Color](https://color.adobe.com/create/image) 
 and swatches are said to be color blind safe by the same website using the [accessibility tool](https://color.adobe.com/create/color-accessibility).  
 
-![color scheme](assets/images/markdown-images/colors.png)
+![color scheme](assets/images/README-images/colors.png)
 
 As well an orange shade (#C7530F) is used for links. A off white (#FAFAFA) is used for font color. They are distinctive and with a good contrast.
 
@@ -293,19 +294,19 @@ has been deployed on [GitHub Pages](https://pages.github.com/) as follow :
     * To create a repository see [Create a repo](https://docs.github.com/en/github/getting-started-with-github/create-a-repo).
 3. Navigate to **Settings** :
 
-![setiings](assets/images/markdown-images/repo-settings.png)
+![setiings](assets/images/README-images/repo-settings.png)
 
 4. Scroll down to the **GitHub Pages** section.
 5. Click on the **None** dropdown menu and select the branch to publish : **master**.
 
-![selection of branch to publish](assets/images/markdown-images/branch.png)
+![selection of branch to publish](assets/images/README-images/branch.png)
 
 6. Click on **Save**.
 7. The website is now deployed.
 
 The link to the website is found in the **GitHub Pages** section of the repository settings.
 
-![website link](assets/images/markdown-images/published.png)
+![website link](assets/images/README-images/published.png)
 
 
 ## Local Deployment
@@ -327,7 +328,7 @@ To clone a repository, take the following steps :
     * using SSH key
     * using GitHub CLI  
 
-![clone options](assets/images/markdown-images/cloning.png)
+![clone options](assets/images/README-images/cloning.png)
 
 4. Choose an option and copy the link given.
 5. Change the current working directory to the location where you want the cloned directory.
@@ -377,7 +378,7 @@ To Fork a repository take the following steps :
 2. Navigate to the corresponding repository.
 3. Identify the ```fork``` button on the top right of the page and click on it.
 
-![forking](assets/images/markdown-images/fork.png)
+![forking](assets/images/README-images/fork.png)
 
 4. Now you should find a copy of the repository in ```Your repositories```.
 
