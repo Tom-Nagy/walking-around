@@ -81,7 +81,7 @@ footer div {
     font-weight: bold;
     color: black;
     background-color: #c7530f;
-    border-color: #fafafa;
+    border: 2px solid #fafafa;
 }
 
 .btn-outline-warning:hover {
