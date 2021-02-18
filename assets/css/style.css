@@ -8,9 +8,7 @@ body {
 /* ------------------------------------------------------ Header */
 
 .navbar {
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 20px 0;
     background-color: #c4ddf2cc;
 }
 
@@ -21,8 +19,9 @@ body {
     border-radius: 50%;
 }
 
-.logo {
+.logo span {
     font-family: "Cormorant Garamont", sans-serif;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -42,6 +41,7 @@ body {
 /* ---------- Navigation Menu */
 
 .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
     font-weight: 500;
     color: black;
 }
@@ -52,7 +52,25 @@ body {
 
 .navbar-light .navbar-nav .active-page a {
     color: #c7530f;
+}
 
+/* Responsive font-size and layout for very large screens */
+
+@media (min-width: 2560px) {
+    .logo img {
+        margin: 24px;
+        height: 180px;
+        width: 180px;
+    }
+
+    .logo span {
+        font-size: 40px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        padding-right: 30px;
+        font-size: 32px;
+    }
 }
 
 /* ------------------------------------------------------ Footer */
@@ -75,7 +93,7 @@ footer div {
 
 /* ---------- Button */
 
-.btn-outline-warning {
+.footer-containers .btn-outline-warning {
     padding: 6px 15px 5px 15px;
     font-size: 14px;
     font-weight: bold;
@@ -84,7 +102,7 @@ footer div {
     border: 2px solid #fafafa;
 }
 
-.btn-outline-warning:hover {
+.footer-containers .btn-outline-warning:hover {
     color: #fafafa;
     background-color: black;
     border: 2px solid #c7530f;
@@ -136,11 +154,24 @@ footer div {
 }
 
 @media (max-width: 320px) {
-    .footer-containers .social-links,
-    #copyright, 
-    .getintouch a {
+    #copyright,
+    .footer-containers .social-links {
         font-size: 0.7em;
     }
+}
+
+/* Responsive font-size and layout for very large screens */
+
+@media (min-width: 2560px) {
+    .footer-containers .btn-outline-warning,
+    #copyright,
+    .footer-containers .social-links i {
+        font-size: 2rem;
+    }
+
+    .social-links i {
+        margin-right: 30px;
+    }    
 }
 
 /* -------------------------------------------------------------------------------- Common Styles */
@@ -162,11 +193,11 @@ footer div {
     background-color: #b8acabcc;
 }
 
-/* h3 titles */
+/* h1 h3 titles */
 
 .home-heading h1,
 .about-us h3,
-.testimonies h3,
+.testimonials h3,
 .activities-sections h3,
 .gallery-title h3,
 .tips-titles h3 {
@@ -183,7 +214,7 @@ for the following css to make text more readable.*/
 
 .home-heading h1,
 .about-us h3,
-.testimonies h3,
+.testimonials h3,
 .activities-sections h3,
 .gallery-title h3,
 .tips-titles h3 {
@@ -233,6 +264,27 @@ for the following css to make text more readable.*/
     background-color: #84a9d9e6;
 }
 
+/* Responsive layout and content for very large screens */
+
+@media (min-width: 2560px) {
+    .about-us h3,
+    .testimonials h3,
+    .activities-sections h3,
+    .gallery-title h3,
+    .tips-titles h3 {
+        font-size : 60px;
+    }
+
+    .about-us p,
+    .activities-sections .skills-practice-content,
+    .activities-sections p,
+    .tips-content,
+    .testimony-sections p,
+    .quotes {
+        font-size: 20px;
+    }
+}
+
 /* -------------------------------------------------------------------------------- Home Page */
 
 .home-wrapper {
@@ -256,6 +308,15 @@ for the following css to make text more readable.*/
     font-weight: 700;
     font-style: italic;
     margin: 0;
+}
+
+/* Responsive heading */
+
+@media (min-width: 2560px) {
+    .home-heading h1 {
+        padding-top: 300px;
+        font-size: 60px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -289,11 +350,20 @@ for the following css to make text more readable.*/
 }
 
 .home-headlines p {
+    margin: auto;
     padding: 16px;
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-    margin: auto;
+}
+
+/* Responsive headlines */
+
+@media (min-width: 2560px) {
+    .home-headlines p {
+        margin-top: 200px;
+    font-size: 30px;
+    }
 }
 
 @media (max-width: 1105px) {
@@ -347,6 +417,14 @@ for the following css to make text more readable.*/
     background-color: #198754;
 }
 
+/* Responsive button */
+
+@media (min-width: 2560px) {
+    .home-callout .btn {
+        font-size: 36px
+    }
+}
+
 @media (max-width: 576px) {
     .home-callout .btn {
         font-size: 14px;
@@ -380,9 +458,10 @@ for the following css to make text more readable.*/
     padding: 32px;
 }
 
-.about-us span {
+.about-us a {
     color: #c7530f;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .testimony-sections {
@@ -392,6 +471,18 @@ for the following css to make text more readable.*/
 .testimony-sections img {
     margin-bottom: 3px;
     border: 2px solid black;
+}
+
+/* Responsive layout and content for very large screens */
+
+@media (min-width: 2560px) {
+    .theclub-wrapper {
+        height: 100vh;
+    }
+
+    .about-us {
+        margin-top: 200px;
+    }
 }
 
 /* -------------------------------------------------------------------------------- Activities */
@@ -544,6 +635,18 @@ for the following css to make text more readable.*/
     background-color: rgb(209, 20, 20);
 }
 
+/* Responsive layout and content for very large screens */
+
+@media (min-width: 2560px) {
+    .gallery-title {
+        padding: 350px 0;
+    }
+
+    .carousel-controls {
+        font-size: 70px;
+    }
+}
+
 /* -------------------------------------------------------------------------------- Hiking Tips */
 
 /* Photo by Karolina from Pexels
@@ -555,22 +658,22 @@ for the following css to make text more readable.*/
     position: relative;
 }
 
-/* Responsive height for the background image to fill up all the available space*/
-
-@media (min-width: 1440px) {
-    .hikingtips-wrapper {
-        height: 100vh;
-    }
-}
-
 .tips-outer-row {
     padding-top: 148px;
     position: relative;
 }
 
- .tips-sections {
-    padding-bottom: 60px;
- }
+.tips-titles h3 {
+    margin-top: 24px;
+}
+
+.tips-sections {
+    padding-bottom: 70px;
+}
+
+.tips-content p {
+    margin-bottom: 0;
+}
 
 /* ---------- Pdf download icon  */
 
@@ -595,6 +698,23 @@ for the following css to make text more readable.*/
     margin: 6px;
     line-height: 33px;
     text-align: center;
+}
+
+
+/* Responsive layout and height for very large screens*/
+
+@media (min-width: 2560px) {
+    .hikingtips-wrapper {
+        height: 100vh;
+    }
+
+    .tips-outer-row {
+        padding-top: 280px;
+    }
+
+    .tips-titles h3 i {
+        font-size: 40px;
+    }    
 }
 
 /* -------------------------------------------------------------------------------- Join Us ! */
@@ -708,4 +828,28 @@ for the following css to make text more readable.*/
         font-size: 14px;
     }
 }
+
+/* Responsive layout for very large screens */
+
+@media (min-width: 2560px) {
+    .form-wrapper .row {
+        padding-top: 400px;
+    }
+
+    .form h4 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .form p {
+        font-size: 30px;
+        padding: 16px 0;
+    }
+
+    .form div label {
+        font-size: 30px;
+        padding: 16px;
+    }    
+}
+
 
