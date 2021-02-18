@@ -11,24 +11,12 @@
 
 * [W3C](https://github.com/Tom-Nagy/walking-around#W3C)
 * [Lighthouse](https://github.com/Tom-Nagy/walking-around#Lighthouse)
-    
- * [UX](https://github.com/Tom-Nagy/walking-around#UX)
-    * [Audience Definition](https://github.com/Tom-Nagy/walking-around#Audience-Definition)
-    * [User Stories](https://github.com/Tom-Nagy/walking-around#User-Stories)
-    * [Design Choices](https://github.com/Tom-Nagy/walking-around#Design-Choices)
-    * [Wireframes](https://github.com/Tom-Nagy/walking-around#Wireframes)
-* [Features](https://github.com/Tom-Nagy/walking-around#Features)
-    * [Existing Features](https://github.com/Tom-Nagy/walking-around#Existing-Features)
-    * [Features to Implement in the Future Versions](https://github.com/Tom-Nagy/walking-around#Features-to-Implement-in-the-Future-Versions)
-* [Technologies Used](https://github.com/Tom-Nagy/walking-around#Technologies-Used)
-* [Testing](https://github.com/Tom-Nagy/walking-around#Testing)
-* [Deployment](https://github.com/Tom-Nagy/walking-around#Deployment)
-    * [Live Deployment](https://github.com/Tom-Nagy/walking-around#Live-Deployment)
-    * [Local Deployment](https://github.com/Tom-Nagy/walking-around#Local-Deployment)
-* [Bugs](https://github.com/Tom-Nagy/walking-around#Bugs)
-    * [Solved](https://github.com/Tom-Nagy/walking-around#Solved)
-    * [Unsolved](https://github.com/Tom-Nagy/walking-around#Unsolved)
-* [Credits](https://github.com/Tom-Nagy/walking-around#Credits)
+* [Cross Browsers Testing](https://github.com/Tom-Nagy/walking-around#Cross-Browsers-Testing)
+    * [Manual Testing](https://github.com/Tom-Nagy/walking-around#Manual-Testing)
+* [User Stories Testing from UX section of the README.md](https://github.com/Tom-Nagy/walking-around#User-Stories-Testing-from-UX-section-of-the-README.md)
+    * [First Time User](https://github.com/Tom-Nagy/walking-around#First-Time-User)
+    * [Returning User](https://github.com/Tom-Nagy/walking-around#Returning-User)
+* [Further Testing](https://github.com/Tom-Nagy/walking-around#Further-Testing)
 
 ## W3C
 
@@ -69,18 +57,70 @@ All the pages from the website have been tested with Lighthouse. They all show 1
     * [Mobile](assets/images/TESTING-images/join-mobile-test.png)
     * [Desktop](assets/images/TESTING-images/join-desktop-test.png)
 
+## Cross Browsers Testing
 
+The website was tested on severals browsers ( Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera) 
+and shows good functionality acroos them all.  
+Manual testing was executed on all browsers as shown in the following section.
 
+### Manual Testing
 
-### Developer and Business Goals
+The responsiveness of the website for diffent viewport sizes was tested by dragging the window up, down, 
+left and right.  
+The folling tests have been exectuted severals times at different viewport breakpoints.
 
-* Build a static website using HTML and CSS.
-* Advertise and Promote the Club by :
-  * Providing accurate and useful information.
-  * Providing an excellent User Experience (UX).
-* Grow of the Club member's population by :
-  * Attracting people to join the Club.
-  * Using a User Centric Development approach (UCD).
+* Header
+    * Click on ```The Club``` navigation link, and check if the link works, when hovered and stays highlighted while on 
+    the page on medium and larger screens.
+    * Click on ```Activities``` navigation link, and check if the link works, when hovered and stays highlighted while on 
+    the page on medium and larger screens.
+    * Click on ```Gallery``` navigation link, and check if the link works, when hovered and stays highlighted while on 
+    the page on medium and larger screens.
+    * Click on ```Hinking Tips``` navigation link, and check if the link works, when hovered and stays highlighted while on 
+    the page on medium and larger screens.
+    * Click on ```Home``` navigation link, and check if the link works, when hovered and stays highlighted while on 
+    the page on medium and larger screens.
+    * Click on ```the logo```, and check if the link works on all screens sizes.
+
+    * The toggle menu's links on small screens have been tested as well.  
+
+* Footer
+    * Click on ```Join Us!``` navigation link (button), and check if the link works, when hovered as well.
+    * Click on ```the Facebook icon``` link and check if the link works, when hovered and open in a diffent tab.
+    * Click on ```the Instagram icon``` link and check if the link works, when hovered and open in a diffent tab.
+    * Click on ```the Pinterest icon``` link and check if the link works, when hovered and open in a diffent tab.
+
+* Home 
+    * Click on ```About Us``` navigation link (button), and check if the link works, when hovered as well.
+
+* The Club
+    * Not applicable.
+
+* Activities
+    * Not applicable.
+
+* Gallery
+    * Click on the arrows to change slides.
+    * Click on the images and check if the modal appear with the corresponding information.
+    * Click on the closing button of the modal to close it.
+    * Click outside of the modal window to close it.
+
+* Hiking Tips
+    * Click on the download icons beside the titles and check if the link open a pdf file in a different tab.
+    * Click on the icons (links) at the end of every tips and check if the links works and open in a diffent tab.
+
+* Join Us !
+    * Try to submit the form without filling the :
+        * Full Name input and check if the form is valid and that an error message appear.
+        * Email input and check if the form is valid and that an error message appear.
+        * Phone input and check if the form is valid and that an error message appear.
+        * Date of Birth input and check if the form is valid and that an error message appear.
+        * Home Address input and check if the form is valid and that an error message appear.
+        * About You input and check if the form is valid and that an error message appear.
+    * Try to submit the form given incorrect input for :
+        * Email and check if the form is valid and that an error message appear.
+        * Phone and check if the form is valid and that an error message appear.
+        
 
 ### User Goals
 
@@ -91,27 +131,52 @@ All the pages from the website have been tested with Lighthouse. They all show 1
 * See pictures of the walks.
 * Submit an application to join the Club.
 
+## User Stories Testing from UX section of the README.md
 
-
-
-
-
-
-
-
-
-
-
-
-
-### **User Stories**
+### First Time User
 
 1. As a first time user, I want the website to be appealing.
+    * The website uses clean and spacious design.
+    * The website applies all the accessibility protocole for an easy and good user experience for all.
+
 2. As a first time user, I want the navigation to be easy and intuitive.
+    * The header and the footer are fixed respectively on the top and on the bottom of the page and always 
+    accessible. So it is easy and quick to navigate.
+    * The navigation menu is clear.
+    * The curent page is highlighted to provide feedback location information to the user.
+
 3. As a first time user, I want the content to be informative but not overwhelming.
-4. As a first time user, I want to understand immediately what is the website about 
-without the need of looking for it.
+    * The content is display per readable and short sections to provide an feeling that it is approachable and 
+    not complicated. This is supported by the website design.
+
+4. As a first time user, I want to understand immediately what is the website about without the need 
+of looking for it.
+    * The home page provide all the information that a new user need :
+        * The heading give the main information: "Ireland Best Walking Community" which include location, 
+        and what it is about.
+        * Three paragraphs give extra information about the community spirit and goals. 
+
 5. As a first time user, I want to be able to apply for joining the Club.
+    * In the footer a button/link ```Join Us !``` is always visible and accessible.
+    * The form gives information (on the top) on what to except. After filling up the form, someone will contact 
+    the user.
+    * Additional information is given in the "About Us" section of The Club page on how to join.
+
+### Returning User
+
 6. As a returning user, I want to see when and where are the Club's meetings.
-7. As a returning user, I want to check out the different social media link for 
-inspiration and ideas.
+    * Club's meeting policy is explained in the "Meet up" section of the Activities page. 
+
+7. As a returning user, I want to check out the different social media link for inspiration and ideas.
+    * Relevant social media links are provided in the fixed footer and always accessible.
+
+8. As a returning user, I want to get information about hiking.
+    * A page is dedicated to Hiking Tips which include three main tips.
+    * Each tip is downloadable in a pdf format.
+    * Additional information is available at the bottom of each tip's section in a form of a link to external 
+    websites.
+
+## Further Testing
+
+* The website has been tested by fellow students, slack community, friends and family.
+* All the issues raised have been addressed.
