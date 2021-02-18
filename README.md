@@ -27,6 +27,7 @@ easy to advanced difficulties.
     * [User Stories](https://github.com/Tom-Nagy/walking-around#User-Stories)
     * [Design Choices](https://github.com/Tom-Nagy/walking-around#Design-Choices)
     * [Wireframes](https://github.com/Tom-Nagy/walking-around#Wireframes)
+    * [Different Design](https://github.com/Tom-Nagy/walking-around#Different-Design)
 * [Features](https://github.com/Tom-Nagy/walking-around#Features)
     * [Existing Features](https://github.com/Tom-Nagy/walking-around#Existing-Features)
     * [Features to Implement in the Future Versions](https://github.com/Tom-Nagy/walking-around#Features-to-Implement-in-the-Future-Versions)
@@ -146,6 +147,10 @@ a lot of space.
 * [Desktop](assets/wireframes/desktop.pdf)
 * [Tablet](assets/wireframes/tablet.pdf)
 * [Mobile](assets/wireframes/mobile.pdf)
+
+### **Different Design**
+
+Some designs are different from the wireframes because of user experience compliance, accessibility, technical skills and time.
 
 # Features
 
