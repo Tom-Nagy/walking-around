@@ -7,7 +7,7 @@ Check out the other mockup:
 * [Activities](assets/images/README-images/ami-responsive-activities.png)
 * [Gallery](assets/images/README-images/ami-responsive-gallery.png)
 * [Hiking Tips](assets/images/README-images/ami-responsive-hikingtips.png)
-* [Get in touch!](assets/images/README-images/ami-responsive-getintouch.png)
+* [Join Us !](assets/images/README-images/ami-responsive-join.png)
 
 #### Visit the live Website by clicking **[here](https://tom-nagy.github.io/walking-around/)**.
 
@@ -208,7 +208,7 @@ Those tips are presented in three columns next to each other on large and medium
 on small devices.  
 With each tip two external links are provided for extra information on the subject.
 
-#### Get in touch !
+#### Join Us !
 
 This page features a form to fill up in order to apply for joining 
 the Club. It is presented on the middle of the screen. 
@@ -229,7 +229,7 @@ Add responsiveness to the carousel with the number of pictures per slide that ch
 on the device size.  
 Add some short video and images in the gallery.
 
-#### Get in touch!
+#### Join Us !
 
 Provide a functionable link to the form, or a customised error page when clicking the submit button.
 
