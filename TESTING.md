@@ -9,14 +9,14 @@
 
 ## Table of Content : 
 
-* [W3C](https://github.com/Tom-Nagy/walking-around#W3C)
-* [Lighthouse](https://github.com/Tom-Nagy/walking-around#Lighthouse)
-* [Cross Browsers Testing](https://github.com/Tom-Nagy/walking-around#Cross-Browsers-Testing)
-    * [Manual Testing](https://github.com/Tom-Nagy/walking-around#Manual-Testing)
-* [User Stories Testing from UX section of the README.md](https://github.com/Tom-Nagy/walking-around#User-Stories-Testing-from-UX-section-of-the-README.md)
-    * [First Time User](https://github.com/Tom-Nagy/walking-around#First-Time-User)
-    * [Returning User](https://github.com/Tom-Nagy/walking-around#Returning-User)
-* [Further Testing](https://github.com/Tom-Nagy/walking-around#Further-Testing)
+* [W3C](https://github.com/Tom-Nagy/walking-around/blob/master/TESTING.md#W3C)
+* [Lighthouse](https://github.com/Tom-Nagy/walking-around/blob/master/TESTING.md#Lighthouse)
+* [Cross Browsers Testing](https://github.com/Tom-Nagy/walking-around/blob/master/TESTING.md#Cross-Browsers-Testing)
+    * [Manual Testing](https://github.com/Tom-Nagy/walking-around/blob/master/TESTING.md#Manual-Testing)
+* [User Stories Testing from UX section of the README.md](https://github.com/Tom-Nagy/walking-around/blob/master/TESTING.md#User-Stories-Testing-from-UX-section-of-the-README.md)
+    * [First Time User](https://github.com/Tom-Nagy/walking-around/blob/master/TESTING.md#First-Time-User)
+    * [Returning User](https://github.com/Tom-Nagy/walking-around/blob/master/TESTING.md#Returning-User)
+* [Further Testing](https://github.com/Tom-Nagy/walking-around/blob/master/TESTING.md#Further-Testing)
 
 ## W3C
 
