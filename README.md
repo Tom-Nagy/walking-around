@@ -186,8 +186,8 @@ users desire to know more about the Club. This button will lead the users to The
 #### The Club
 
 The Club content is display in two columns, one below the other.  
-The first is the about section of the Club and give explanation about the club.  
-The second is display some testimonies from club's members.
+The first is the About Us section of the Club and give explanation about the club.  
+The second display some testimonials from club's members.
 
 #### Activities
 
