@@ -13,7 +13,7 @@ Check out the other mockup:
 
 Walking Around is a Club situated in Bray (County Wicklow, Ireland). It is a group of people 
 from all ages and background that enjoy hiking.  
-The Club meet regularly to accomplish different types of walks from 
+The Club's members meet regularly to accomplish different types of walks and activities from 
 easy to advanced difficulties.
 
 ## Table of Content : 
@@ -55,7 +55,7 @@ order to **attract** the audience into **joining** the Club.
 * Advertise and Promote the Club by :
   * Providing accurate and useful information.
   * Providing an excellent User Experience (UX).
-* Grow of the Club member's population by :
+* Growth of the Club member's population by :
   * Attracting people to join the Club.
   * Using a User Centric Development approach (UCD).
 
@@ -99,7 +99,7 @@ would have as well an interest in outdoor activities, sport, healthy living and 
 without the need of looking for it.
 5. As a first time user, I want to be able to apply for joining the Club.
 6. As a returning user, I want to see when and where are the Club's meetings.
-7. As a returning user, I want to check out the different social media link for 
+7. As a returning user, I want to check out the different social media links for 
 inspiration and ideas.
 8. As a returning user, I want to get information about hiking.
 
@@ -109,7 +109,7 @@ inspiration and ideas.
 
 Considering the targeted audience, a sans serif font is best because it is often 
 associated to simplicity, modern and clean design. It is as well a flexible font that 
-can be pair with the serif style for more formal intention and traditional feel.  
+can be paired with the serif style for more formal intention and traditional feel.  
 The website will use ***Proza Libre*** font because it has been designed to work 
 very well on screen. It will be paired with the ***Cormorant Garmont*** font because 
 as [Typewolf](https://www.typewolf.com/blog/google-fonts-combinations) says :
@@ -128,11 +128,11 @@ and swatches are said to be color blind safe by the same website using the [acce
 
 ![color scheme](assets/images/README-images/colors.png)
 
-As well an orange shade (#C7530F) is used for links. A off white (#FAFAFA) is used for font color. They are distinctive and with a good contrast.
+As well an orange shade (#C7530F) is used for links. An off white (#FAFAFA) is used for font color. They are distinctive and with a good contrast.
 
 #### Images
 
-The hero image is important for the UX and is large, open and trigger the will to explore the website.  
+The hero image is important for the UX and is large and triggers the will to explore the website.  
 A gallery page is part of the website. There will be pictures of scenery, paths and walks.
 
 #### Styling and Feeling
@@ -150,7 +150,8 @@ a lot of space.
 
 ### **Different Design**
 
-Some designs are different from the wireframes because of user experience compliance, accessibility, technical skills and time.
+Some designs are different from the wireframes because of user experience compliance, accessibility, technical skills and time.  
+
 
 # Features
 
@@ -161,14 +162,14 @@ Some designs are different from the wireframes because of user experience compli
 On all pages and devices there is a fix header on the top 
 and a fix footer on the bottom of the viewport.
 
-**The header** present the logo and the name of the Website on the 
+**The header** presents the logo and the name of the Website on the 
 left and a responsive navigation bar on the right. The navigation 
 bar become a toggle on small devices. As well the name of the website 
 become the title's page name on small devices in order to help identify on which 
 page the user is situated.
 
-**The footer** present a button with the link "Join Us!" on the 
-left that bring the user to the application form.  
+**The footer** presents a button with the link "Join Us!" on the 
+left that brings the user to the application form.  
 As well, social media logos on the right linked to different websites for 
 additional information on hiking.
 The "copyright" (For educational use) is in the middle with responsive text to fit on small devices. 
@@ -185,25 +186,25 @@ users desire to know more about the Club. This button will lead the users to The
 
 #### The Club
 
-The Club content is display in two columns, one below the other.  
-The first is the About Us section of the Club and give explanation about the club.  
-The second display some testimonials from club's members.
+The Club content is displayed in two columns, one below the other.  
+The first is the About Us section of the Club and gives explanation about the club.  
+The second displays some testimonials from club's members.
 
 #### Activities
 
-The Activities are display in three columns.  
+The Activities are displayed in three columns.  
 From left to right or top to bottom on smaller devices: about the community, the activities, meetings.
 
 #### Gallery
 
-The Gallery present pictures taken during hikes. It features the great Irish landscape and trails.  
-It is presented as a carousel and display a modal when the image is clicked on to focus on the image and see the images titles and credits. The 
-carousel display one image per slide on small screens and two images per slide on medium and bigger screens.
+The Gallery presents pictures taken during hikes. It features the great Irish landscape and trails.  
+It is presented as a carousel and displays a modal when the image is clicked on to focus on the image and see the images titles and credits. The 
+carousel displays one image per slide on small screens and two images per slide on medium and bigger screens.
 
 #### Hiking Tips
 
 On this page are presented three major hiking tips. They are available to download on pdf format by clicking on the download 
-icon beside the tip's tile. 
+icon beside the tip's title. 
 Those tips are presented in three columns next to each other on large and medium devices and below each other 
 on small devices.  
 With each tip two external links are provided for extra information on the subject.
@@ -214,7 +215,7 @@ This page features a form to fill up in order to apply for joining
 the Club. It is presented on the middle of the screen. 
 Beside the form on large screen and on the top on medium screen, motivational quotes will be presented 
 to reenforce the emotional response into the action taken.  
-On small screens only the form is display.
+On small screens only the form is displayed.
 
 ### **Features to Implement in the Future Versions**
 
@@ -235,8 +236,8 @@ Provide a functionable link to the form, or a customised error page when clickin
 
 #### Additional page
 
-Add a member only page where content about the club is accessible to members only. It would work as a blog and 
-display next hike; scheduled activities and meeting and a media section with photos and videos.
+Add a members only page where content about the club is accessible to members only. It would work as a blog and 
+displays next hikes; scheduled activities and meetings and a media section with photos and videos.
 
 # Technologies Used 
 
@@ -290,7 +291,7 @@ For deploying the website live.
 # Deployment
 
 This project was developed on [GitPod Workspaces IDE](https://gitpod.io/workspaces/) 
-(Integrated Development Environment) commited and pushed to my [Github Repository](https://github.com/Tom-Nagy/walking-around) 
+(Integrated Development Environment) committed and pushed to my [Github Repository](https://github.com/Tom-Nagy/walking-around) 
 using GitPod Command Line Interface (CLI).
 
 ## Live Deployment
@@ -304,7 +305,7 @@ has been deployed on [GitHub Pages](https://pages.github.com/) as follow :
     * To create a repository see [Create a repo](https://docs.github.com/en/github/getting-started-with-github/create-a-repo).
 3. Navigate to **Settings** :
 
-![setiings](assets/images/README-images/repo-settings.png)
+![settings](assets/images/README-images/repo-settings.png)
 
 4. Scroll down to the **GitHub Pages** section.
 5. Click on the **None** dropdown menu and select the branch to publish : **master**.
@@ -409,10 +410,10 @@ Solve : The parent of the unordered list should have the class="justify-content-
 Issue : When the navigation menu is toggled and clicked on, the list of links of the menu doesn't appear.  
 Solve : JQuery script was missing before the ```/body```. I was using a Beta version of Bootstrap that didn't include it.
 
-Issue : Whe can see the "Current page" message provided in the span with class="sr-only" that goes with the active link.  
-Solve : The span with ```class= sr-only``` works when the ```aria-hidden``` attribute is given to the link or image you want to comment.
+Issue : We can see the "Current page" message provided in the span with class="sr-only" that goes with the active link.  
+Solve : The span with ```class= sr-only``` works when the ```aria-hidden``` attribute is given to the link or image you want to comment on.
 
-Issue : The middle column in activities.html show a gap on very large screens and is not horizontally centered on medium screens.  
+Issue : The middle column in activities.html shows a gap on very large screens and is not horizontally centered on medium screens.  
 Solve : I took off the ```display: table-cell``` and let the Bootstrap class use the available width as it should. Then to fixe the vertical 
 alignment issue brought by taking off the previous display, I used a defined height with ```display: flex``` and ```vertical-align: center``` 
 added to it in a media query. For horizontally centered on medium screen, add bootstrap class```justify-content-center``` to the row.
@@ -420,16 +421,16 @@ added to it in a media query. For horizontally centered on medium screen, add bo
 Issue : The background images are not filling all the viewport.  
 Solve : Using Bootstrap grid and container; if the content of the page is bigger than 100vh, then it is not necessary (and not recommended) to 
 provide height for the containers. If the content is smaller than 100vh, then providing a height of 100vh will fix the covering issue. For 
-responsiveness ```height: auto``` can on the wrapper can be coupled with taylor media query with ```height: 100vh```.
+responsiveness ```height: auto``` can be added on the wrapper and can be coupled with tailored media query with ```height: 100vh```.
 
 ### Unsolved
 
-Issue : The callout button of the home page is not aligned with the the copyright text.
+Issue : The callout button of the home page is not aligned with the copyright text.
 
 Issue : The background-image is flickering when scrolling the content.
 
-Issue : The background-attachment is set to fixed, but the content and the background image are scrolling together on "real phones" but it respond 
-as expected with the google DevTools.
+Issue : The background-attachment is set to fixed, but the content and the background image are scrolling together on phones but it responds 
+as expected on laptops.
 
 # Credit 
 
@@ -474,9 +475,8 @@ For explanation and code snippet on overlay on background image used in css.
 
 ### Images :
 
-Some of the images used on the website are taken from a Hiking groupe on [Facebook](https://www.facebook.com/groups/hikingirelandgroup) with the permission 
-of the photographers. The rest of them are from myself.
-
+Some of the images used on the website are taken from a Hiking group on [Facebook](https://www.facebook.com/groups/hikingirelandgroup) with the 
+permission of the photographers and from [Pexels](https://www.pexels.com/).
 
 * Pictures from Ger Penkert:  
 [Mohra](assets/images/gallery/Ger-Penkert-lough-mohra.jpg)  
@@ -507,8 +507,8 @@ of the photographers. The rest of them are from myself.
 
 ### Aknowledgements :
 
-Special thanks to all the Code Institute team ("Teacher", Lecturers and Tutors) that are making me more knowledgeable and are making this happen.
+Special thanks to all Code Institute's team ("Teacher", Lecturers and Tutors) that are making me more knowledgeable and are making this happen.
 
-Hudge thank you to the [Slack](code-institute-room.slack.com) community, its all the members and all the leads and tutors for their help and support.
+Huge thank you to the [Slack](code-institute-room.slack.com) community, its all the members and all the leads and tutors for their help and support.
 
 Thanks to my mentor Allen Thomas Varghese for guiding me through this project.
