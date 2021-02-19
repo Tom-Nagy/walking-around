@@ -689,15 +689,22 @@ for the following css to make text more readable.*/
 
 /* ---------- Extra tips links */
 
-.tips-content a {
-    padding: 5px;
+.tips-content a i {
     text-decoration: none;
-    color: #c4ddf2;
-    background-color: rgba(0, 0, 0, 0.8);
+    color: #fafafa;
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    background-color: black;
 
     margin: 6px;
     line-height: 33px;
     text-align: center;
+}
+
+.tips-content a i:hover {
+    color: black;
+    background-color: #fafafa;
 }
 
 
