@@ -152,6 +152,52 @@ a lot of space.
 
 Some designs are different from the wireframes because of user experience compliance, accessibility, technical skills and time.  
 
+#### Site Map
+
+Activities is a page on its own and not a sub-section of The Club page. This is because of the importance of the content presented in the 
+Activities page for the user. And it is now more obvious to find the Activities on the website. It is as well a crucial part of The Club's life.
+
+#### footer
+
+* The ```get in touch``` link have been replace by a ```Join Us``` button. It is more meaningful and describes better one of the 
+intention of the website; that is for users to join the club.
+* The copyright now says : "For educational use.".
+
+#### Home
+
+* Three headlines have been added to give more information to the user about the website.  
+* The ```Join Us``` button have been replaced by ```About Us``` and linked to The Club page. 
+
+#### The Club
+
+* The original idea of having a clip made on Google Earth Studio for the location of the Club in the middle or background of the 
+page hasn't been followed because of time issue. This feature was considered significant for the purpose of the website and is now part of the 
+future feature to be implemented.
+* The first section that describes the Club has now a title that say About Us. It is more meaningful and semantic. It helps users to identify what 
+is the section about.
+* The second section consisted of inspirational quotes and has been changed to testimonials with a title section (for the same reasons explained 
+above) and presents members feedback. It is better practice and it gives more information to the users about the Club.
+* The layout of the sections have changed and are one below the other on all screen sizes for better use of the space, design and user experience.
+
+#### Activities
+
+* The icons were replaced by titles for better user experience semantic as it was not considered self-explanatory.
+
+#### Gallery
+
+* The layout of the gallery has change for better user experience. Too many pictures presented was considered confusing and overwhelming.
+
+#### Hiking Tips
+
+* The icons were taken away as it was considered  not a useful feature. The tips titles replaced them for better semantic and readability.
+* The layout of the sections have changed and are one below the other on all screen sizes for better use of the space, design and user experience. 
+The content is displayed all at once.
+
+#### Join Us !
+
+* The form has now a title and a short explanatory paragraph on the top for better user experience.
+* The Heading that appear on large screen is gone and replaced by another inspirational quote.
+
 
 # Features
 
@@ -187,8 +233,9 @@ users desire to know more about the Club. This button will lead the users to The
 #### The Club
 
 The Club content is displayed in two columns, one below the other.  
-The first is the About Us section of the Club and gives explanation about the club.  
-The second displays some testimonials from club's members.
+The first is the About Us section of the Club and gives explanation about the club and includes a short explanation on how to join with a link to 
+the Join Us page.   
+The second is the testimonials section. It displays three feedback quotes from the club's members.
 
 #### Activities
 
