@@ -8,7 +8,7 @@ body {
 /* ------------------------------------------------------ Header */
 
 .navbar {
-    padding: 20px 20px 0;
+    padding: 12px 20px;
     background-color: #c4ddf2e6;
 }
 
@@ -38,7 +38,7 @@ body {
     }
 }
 
-/* ---------- Navigation Menu */
+/* ---------- Navigation list */
 
 .navbar-light .navbar-nav .nav-link {
     font-size: 16px;
@@ -52,6 +52,12 @@ body {
 
 .navbar-light .navbar-nav .active-page a {
     color: #c7530f;
+}
+
+/* Toggle */
+
+.navbar-light .navbar-toggler {
+    border: 2px outset #736640;
 }
 
 /* Responsive font-size and layout */
