@@ -390,7 +390,6 @@ for the following css to make text more readable.*/
     }
 }
 
-
 @media (max-width: 425px) {
     .home-headlines {
     padding-top: 40px;
@@ -442,7 +441,6 @@ for the following css to make text more readable.*/
         font-size: 14px;
     }
 }
-
 
 /* -------------------------------------------------------------------------------- The Club */
 
@@ -716,7 +714,6 @@ for the following css to make text more readable.*/
     background-color: #fafafa;
 }
 
-
 /* Responsive layout and height for very large screens*/
 
 @media (min-width: 2560px) {
@@ -812,7 +809,6 @@ for the following css to make text more readable.*/
     background-color: #fafafae6;
     display: block;
     font-size: 12px;
-
 }
 
 .form .btn {
@@ -867,5 +863,3 @@ for the following css to make text more readable.*/
         padding: 16px;
     }    
 }
-
-
