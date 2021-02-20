@@ -24,8 +24,13 @@ W3C Markup Validation Service and W3C CSS Validation Service have been used to c
 The results are positive and the code is valid.
 
 * [W3C Markup Validation Service](https://validator.w3.org/)
+
+![W3C HTML Validation Result](assets/images/TESTING-images/manual-testing/testing-html.png)
     
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+![W3C CSS Validation Result](assets/images/TESTING-images/manual-testing/testing-css.png)
+
 
 ## Lighthouse
 
@@ -34,28 +39,28 @@ identify the site performance, accessibility and user experience on Mobile and D
 All the pages from the website have been tested with Lighthouse. They all show 100% score except for the performance for some pages.
 
 * Home 
-    * [Mobile](assets/images/TESTING-images/home-mobile-test.png)
-    * [Desktop](assets/images/TESTING-images/home-desktop-test.png)
+    * [Mobile](assets/images/TESTING-images/lighthouse/home-mobile-test.png)
+    * [Desktop](assets/images/TESTING-images/lighthouse/home-desktop-test.png)
 
 * The Club
-    * [Mobile](assets/images/TESTING-images/theclub-mobile-test.png)
-    * [Desktop](assets/images/TESTING-images/theclub-desktop-test.png)
+    * [Mobile](assets/images/TESTING-images/lighthouse/theclub-mobile-test.png)
+    * [Desktop](assets/images/TESTING-images/lighthouse/theclub-desktop-test.png)
 
 * Activities
-    * [Mobile](assets/images/TESTING-images/activities-mobile-test.png)
-    * [Desktop](assets/images/TESTING-images/activities-desktop-test.png)
+    * [Mobile](assets/images/TESTING-images/lighthouse/activities-mobile-test.png)
+    * [Desktop](assets/images/TESTING-images/lighthouse/activities-desktop-test.png)
 
 * Gallery
-    * [Mobile](assets/images/TESTING-images/gallery-mobile-test.png)
-    * [Desktop](assets/images/TESTING-images/gallery-desktop-test.png)
+    * [Mobile](assets/images/TESTING-images/lighthouse/gallery-mobile-test.png)
+    * [Desktop](assets/images/TESTING-images/lighthouse/gallery-desktop-test.png)
 
 * Hiking Tips
-    * [Mobile](assets/images/TESTING-images/hikintips-mobile-test.png)
-    * [Desktop](assets/images/TESTING-images/hikintips-desktop-test.png)
+    * [Mobile](assets/images/TESTING-images/lighthouse/hikintips-mobile-test.png)
+    * [Desktop](assets/images/TESTING-images/lighthouse/hikintips-desktop-test.png)
 
 * Join Us !
-    * [Mobile](assets/images/TESTING-images/join-mobile-test.png)
-    * [Desktop](assets/images/TESTING-images/join-desktop-test.png)
+    * [Mobile](assets/images/TESTING-images/lighthouse/join-mobile-test.png)
+    * [Desktop](assets/images/TESTING-images/lighthouse/join-desktop-test.png)
 
 ## Cross Browsers Testing
 
@@ -129,22 +134,44 @@ The following tests have been executed severals times at different viewport brea
     * The website uses clean and spacious design.
     * The website applies all the accessibility protocols for an easy and good user experience for all.
 
+![home](assets/images/README-images/ami-responsive-home.png)
+![The club](assets/images/README-images/ami-responsive-theclub.png)
+![Activities](assets/images/README-images/ami-responsive-activities.png)
+![Gallery](assets/images/README-images/ami-responsive-gallery.png)
+![Hiking Tips](assets/images/README-images/ami-responsive-hikingtips.png)
+![Join Us !](assets/images/README-images/ami-responsive-join.png)
+
+See [Lighthouse](https://github.com/Tom-Nagy/walking-around/blob/master/TESTING.md#Lighthouse) for accessibility results.
+
 2. As a first time user, I want the navigation to be easy and intuitive.
     * The header and the footer are fixed respectively on the top and on the bottom of the page and always 
     accessible. So it is easy and quick to navigate.
     * The navigation menu is clear.
-    * The current page is highlighted to provide feedback location information to the user.
+    * The current page is highlighted on medium and large screens to provide feedback location information to the user.
+
+![Navigation](assets/images/TESTING-images/manual-testing/testing-nav.png)
+
+    * The current page replace the website name beside the logo on small screens to provide feedback location information to the user.
+
+![Navigation-sm](assets/images/TESTING-images/manual-testing/testing-nav-sm.png)
 
 3. As a first time user, I want the content to be informative but not overwhelming.
     * The content is displayed per readable and short sections to provide the feeling that it is approachable and 
     not complicated. This is supported by the website design.
+    
 
 4. As a first time user, I want to understand immediately what is the website about without the need 
 of looking for it.
     * The home page provide all the information that a new user need :
         * The heading gives the main information: "Ireland Best Walking Community" which includes location, 
         and what it is about.
-        * Three paragraphs give extra information about the community spirit and goals. 
+
+![Home Heading](assets/images/TESTING-images/manual-testing/home-heading.png)
+
+        * Three paragraphs give extra information about the community spirit and goals.
+
+![Home Headlines](assets/images/TESTING-images/manual-testing/home-headlines.png)
+
 
 5. As a first time user, I want to be able to apply for joining the Club.
     * In the footer a button/link ```Join Us !``` is always visible and accessible.
