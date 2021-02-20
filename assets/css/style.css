@@ -798,6 +798,9 @@ for the following css to make text more readable.*/
     line-height: 18px;
     text-align: center;
 }
+.form div label .required-input {
+    color: red;
+}
 
 .form div textarea,
 .form div input {
