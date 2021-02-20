@@ -3,7 +3,7 @@
 
 **[README.md](README.md)**
 
-**[Visit the live Website here](https://tom-nagy.github.io/walking-around/)**.
+#### Visit the live Website : **[Walking Around](https://tom-nagy.github.io/walking-around/)**.
 
 # Testing
 

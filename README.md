@@ -9,7 +9,7 @@ Check out the other mockup:
 * [Hiking Tips](assets/images/README-images/ami-responsive-hikingtips.png)
 * [Join Us !](assets/images/README-images/ami-responsive-join.png)
 
-#### Visit the live Website by clicking **[here](https://tom-nagy.github.io/walking-around/)**.
+#### Visit the live Website : **[Walking Around](https://tom-nagy.github.io/walking-around/)**.
 
 Walking Around is a Club situated in Bray (County Wicklow, Ireland). It is a group of people 
 from all ages and background that enjoy hiking.  
