@@ -9,7 +9,7 @@ body {
 
 .navbar {
     padding: 20px 20px 0;
-    background-color: #c4ddf2cc;
+    background-color: #c4ddf2e6;
 }
 
 /* ---------- Logo */
@@ -54,7 +54,13 @@ body {
     color: #c7530f;
 }
 
-/* Responsive font-size and layout for very large screens */
+/* Responsive font-size and layout */
+
+@media (max-width: 758px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-weight: 600;
+    }
+}
 
 @media (min-width: 2560px) {
     .logo img {
@@ -241,7 +247,7 @@ for the following css to make text more readable.*/
     line-height: 25px;
 }
 
-/* Content's Style */
+/* Content's Containers */
 
 .home-headlines p,
 .about-us p,
