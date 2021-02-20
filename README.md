@@ -470,11 +470,12 @@ Solve : Using Bootstrap grid and container; if the content of the page is bigger
 provide height for the containers. If the content is smaller than 100vh, then providing a height of 100vh will fix the covering issue. For 
 responsiveness ```height: auto``` can be added on the wrapper and can be coupled with tailored media query with ```height: 100vh```.
 
+Issue : The background-image is flickering when scrolling the content.  
+Solve : By adjusting the height in the above issue, it solved this problem as well. I believe it to be a matter of content and/or container fitting.
+
 ### Unsolved
 
 Issue : The callout button of the home page is not aligned with the copyright text.
-
-Issue : The background-image is flickering when scrolling the content.
 
 Issue : The background-attachment is set to fixed, but the content and the background image are scrolling together on phones but it responds 
 as expected on laptops.
